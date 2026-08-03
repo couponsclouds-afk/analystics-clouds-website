@@ -43,6 +43,7 @@ export function Contact() {
   const [touched, setTouched] = useState<Record<string, boolean>>({});
   const [isSending, setIsSending] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState("");
 
   const handleBlur = (field: string) => {
     setTouched((prev) => ({ ...prev, [field]: true }));
@@ -71,7 +72,7 @@ export function Contact() {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     // Mark all as touched
@@ -90,12 +91,24 @@ export function Contact() {
     }
 
     setIsSending(true);
+    setSubmitError("");
 
-    // Simulate sending message API
-    setTimeout(() => {
-      setIsSending(false);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.success) {
+        throw new Error(data.error || "Something went wrong.");
+      }
       setIsSubmitted(true);
-    }, 1500);
+    } catch (err) {
+      setSubmitError("Failed to send your message. Please try again or email us directly.");
+    } finally {
+      setIsSending(false);
+    }
   };
 
   const scrollToForm = () => {
@@ -472,6 +485,11 @@ export function Contact() {
 
                       {/* Action Button & Privacy Notice */}
                       <div className="space-y-3.5">
+                        {submitError && (
+                          <p className="text-xs text-red-600 font-medium text-center bg-red-50 border border-red-100 rounded-xl py-2.5 px-4">
+                            {submitError}
+                          </p>
+                        )}
                         <button
                           type="submit"
                           disabled={isSending}

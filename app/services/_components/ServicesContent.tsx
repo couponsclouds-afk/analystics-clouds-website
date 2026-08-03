@@ -164,40 +164,6 @@ export function Services(props: ServicesPageProps) {
       link: "/services/web-design-development",
     },
     {
-      id: "email-marketing",
-      name: "Email Marketing",
-      category: "DIRECT & CREATIVE",
-      categoryLabel: "DIRECT & CREATIVE",
-      collapseDesc: "Nurture leads and drive recurring sales with hyper-personalized, automated customer journeys.",
-      expandedDesc: "Unlock massive hidden revenue from your existing customer base. We set up behavioral email automation, segment lists with scientific precision, and write highly compelling copy that bypasses spam filters.",
-      capabilities: ["Behavioral Email Flows", "Dynamic List Segmenting", "Compelling Retention Copy"],
-      metric: "32%",
-      metricLabel: "Revenue Share from Email Flow",
-      icon: <Mail className="w-5 h-5 text-indigo-600" />,
-      iconBg: "bg-indigo-50",
-      iconColor: "text-indigo-600",
-      tileBg: "bg-[#F5F5FA]/40",
-      borderHover: "hover:border-indigo-600/40",
-      link: "/services/email-marketing",
-    },
-    {
-      id: "sms-marketing",
-      name: "SMS Marketing",
-      category: "DIRECT & CREATIVE",
-      categoryLabel: "DIRECT & CREATIVE",
-      collapseDesc: "Instant, highly-converting mobile outreach for promotions, alerts, and customer retention.",
-      expandedDesc: "Boasting open rates upwards of 98%, SMS marketing puts your message directly in front of your customer. We build compliant, personalized messaging campaigns that drive instant flash-sales and user retention.",
-      capabilities: ["Compliant SMS Broadcasts", "Instant Flash Campaigns", "Personalized Retargeting"],
-      metric: "98%",
-      metricLabel: "Average Message Open Rate",
-      icon: <MessageSquare className="w-5 h-5 text-[#FE7146]" />,
-      iconBg: "bg-orange-50",
-      iconColor: "text-[#FE7146]",
-      tileBg: "bg-[#FFF1EC]/30",
-      borderHover: "hover:border-[#FE7146]/45",
-      link: "/services/sms-marketing",
-    },
-    {
       id: "display-native-ads",
       name: "Display & Native Ads",
       category: "PAID",
@@ -334,25 +300,10 @@ export function Services(props: ServicesPageProps) {
               <span className="text-xs font-mono font-black text-[#303360]">SOCIAL</span>
             </motion.div>
 
-            {/* Email icon floating top center */}
-            <motion.div
-              className="absolute left-[30%] top-[12%] p-3 rounded-xl bg-white border border-gray-100 shadow-lg flex items-center gap-1.5"
-              animate={{ y: [0, -8, 8, 0] }}
-              transition={{ duration: 9, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-            >
-              <Mail className="w-3.5 h-3.5 text-indigo-500" />
-              <span className="text-[10px] font-mono font-semibold text-gray-500">DIRECT</span>
-            </motion.div>
+            
 
             {/* SMS Message icon floating right middle */}
-            <motion.div
-              className="absolute right-[22%] top-[45%] p-3 rounded-xl bg-white border border-gray-100 shadow-lg flex items-center gap-1.5"
-              animate={{ y: [0, 9, -9, 0] }}
-              transition={{ duration: 8.5, repeat: Infinity, ease: "easeInOut", delay: 2.2 }}
-            >
-              <MessageSquare className="w-3.5 h-3.5 text-[#FE7146]" />
-              <span className="text-[10px] font-mono font-semibold text-gray-500">SMS</span>
-            </motion.div>
+            
           </div>
         )}
 
@@ -462,7 +413,7 @@ export function Services(props: ServicesPageProps) {
           </div>
 
           {/* 8-Tile spotlight Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 relative">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 relative">
             {services.map((service, index) => {
               // Highlight checking
               const isGroupHighlighted = highlightedServiceIds.length > 0;

@@ -14,9 +14,7 @@ import {
   Target,
   Share2,
   Code2,
-  Mail,
   Tv,
-  MessageSquare,
   TrendingUp,
   ArrowRight,
   Database,
@@ -216,22 +214,6 @@ export function Home(props: HomeProps) {
       desc: "Speed-optimized, conversion-focused websites engineered for seamless UX.",
       metric: "98+ PageSpeed Score",
       path: "/services/web-design-development"
-    },
-    {
-      title: "Email Marketing Automation",
-      icon: <Mail className="w-5 h-5 text-purple-600" />,
-      bg: "bg-purple-50",
-      desc: "Nurture cold leads and drive high customer lifetime value with tailored flows.",
-      metric: "32% Avg. Open Rate",
-      path: "/services/email-marketing"
-    },
-    {
-      title: "SMS Marketing Solutions",
-      icon: <MessageSquare className="w-5 h-5 text-teal-600" />,
-      bg: "bg-teal-50",
-      desc: "Reach customers instantly with personalized, direct sms promotions.",
-      metric: "98% Open Rate",
-      path: "/services/sms-marketing"
     },
     {
       title: "Display & Native Ads",
@@ -615,7 +597,7 @@ export function Home(props: HomeProps) {
           </div>
 
           {/* Interactive expand-on-hover service tiles */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((svc, i) => {
               const isAnyHovered = hoveredService !== null;
               const isThisHovered = hoveredService === i;
