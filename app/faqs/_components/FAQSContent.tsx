@@ -20,119 +20,66 @@ export function FAQS() {
   const [openSection, setOpenSection] = useState<string | null>("services-offered");
 
   const faqItems: FaqItem[] = [
-    {
-      id: "services-offered",
-      title: "1. What services does Analytics Clouds offer?",
-      content: `We are a full-service performance marketing agency covering the complete digital growth stack:
+  {
+    id: "services-offered",
+    title: "1. What services does Analytics Clouds offer?",
+    content: `We provide end-to-end digital marketing solutions, including SEO, Google Ads, Performance Marketing, Social Media Marketing, Website Development, Affiliate Marketing, Content Marketing, and more - all tailored to your business goals.`
+  },
+  {
+    id: "business-strategy",
+    title: "2. How do you create a strategy for my business?",
+    content: `Every business is unique. We start by understanding your goals, target audience, competitors, and industry before creating a customized strategy designed to support long-term growth.`
+  },
+  {
+    id: "business-sizes",
+    title: "3. Do you work with businesses of all sizes?",
+    content: `Yes. We work with startups, small and medium-sized businesses, as well as established enterprises across a wide range of industries.`
+  },
+  {
+    id: "results-timeline",
+    title: "4. How long does it take to see results?",
+    content: `The timeline depends on the service and your business objectives. Paid advertising can deliver results relatively quickly, while SEO and organic marketing typically require consistent effort over time to build sustainable growth.`
+  },
+  {
+    id: "regular-reports",
+    title: "5. Do you provide regular reports?",
+    content: `Absolutely. We provide transparent reports and performance insights so you can track the progress of your campaigns and understand how they're contributing to your business goals.`
+  },
+  {
+    id: "manage-campaigns",
+    title: "6. Can you manage my existing marketing campaigns?",
+    content: `Yes. Whether you already have active campaigns or are starting from scratch, we can review, optimize, and manage your digital marketing efforts to improve overall performance.`
+  },
+  {
+    id: "custom-websites",
+    title: "7. Do you build custom websites?",
+    content: `Yes. We design and develop responsive, user-friendly websites that are tailored to your brand, business objectives, and customer experience.`
+  },
+  {
+    id: "measure-success",
+    title: "8. How do you measure campaign success?",
+    content: `We focus on meaningful performance indicators such as website traffic, lead generation, conversions, customer engagement, and return on investment (ROI), depending on your business goals.`
+  },
+  {
+    id: "choose-services",
+    title: "9. Can I choose only the services I need?",
+    content: `Of course. You can select individual services or opt for a complete digital marketing solution. We'll recommend the approach that best aligns with your business objectives.`
+  },
+  {
+    id: "getting-started",
+    title: "10. How do I get started with Analytics Clouds?",
+    content: `Getting started is simple. Contact our team through the website, tell us about your business and goals, and we'll discuss the best strategy to help you grow online.`
+  },
+  {
+    id: "contact-faq",
+    title: "11. How can I contact the team?",
+    content: `Reach us any way that's convenient:
 
-• Search Engine Optimization (SEO) — technical audits, content clusters, and authority link-building.
-• Google Ads — search, shopping, YouTube, and display campaigns with smart bidding.
-• Performance Marketing — full-funnel, multi-channel paid campaigns focused on ROI.
-• Social Media Marketing — content pipelines, community building, and paid social.
-• Email & SMS Marketing — automated journeys, segmentation, and retention flows.
-• Display & Native Ads — programmatic brand campaigns across premium publishers.
-• Web Design & Development — fast, conversion-focused websites built on React/Next.js.
-
-Every engagement can be a single service or a combined growth program managed by one team.`
-    },
-    {
-      id: "results-timeline",
-      title: "2. How quickly will I see results?",
-      content: `It depends on the channel:
-
-• Paid campaigns (Google Ads, Meta, performance marketing) typically start generating measurable traffic and leads within the first 2-4 weeks, with optimization compounding after that.
-• SEO is a compounding channel — technical fixes can produce crawl and indexing improvements within the first 14 days, but substantial organic ranking growth typically takes 3 to 6 months of consistent content and authority building.
-• Email & SMS flows begin producing revenue as soon as automations go live on your existing audience.
-
-We always set realistic channel-by-channel expectations during your free audit, before any commitment.`
-    },
-    {
-      id: "pricing-model",
-      title: "3. How does your pricing work?",
-      content: `We work on transparent monthly retainers and fixed project pricing — no hidden fees.
-
-• Ongoing services (SEO, ads management, social, email/SMS) are billed as a monthly retainer defined in your Statement of Work (SOW).
-• One-time projects (website design & development, landing pages, audits) are quoted as fixed project fees with clear deliverables.
-• Ad spend (Google, Meta, etc.) is separate from our management fee and is typically funded directly by you, so you always control your budget.
-
-Exact pricing depends on scope, competition, and goals — request a free audit and we'll send a tailored proposal.`
-    },
-    {
-      id: "reporting",
-      title: "4. What reporting will I receive?",
-      content: `Every month you receive a full multi-attribution performance dashboard tracking real business indicators — organic sessions, keyword rankings, ad spend efficiency (ROAS/CPA), leads or sales attributed per channel, and conversion trends.
-
-We review this together on a monthly growth call, covering what was completed, what the data says, and the exact plan for the next cycle. You get direct access to your dashboards at all times — your data is never a black box.`
-    },
-    {
-      id: "ad-budget",
-      title: "5. Who controls and owns the ad accounts and budgets?",
-      content: `You do. We build and manage campaigns inside ad accounts that belong to you (Google Ads, Meta Business Manager, LinkedIn Campaign Manager), so you retain full ownership of account history, pixels, and audiences even if we part ways.
-
-Ad budgets are typically paid by you directly to the platforms — our management fee is separate. This keeps everything transparent: you can see every rupee of spend in your own account at any time.`
-    },
-    {
-      id: "contracts",
-      title: "6. Do I have to sign a long-term contract?",
-      content: `No lock-ins. Ongoing services run on flexible monthly retainers governed by a Client Service Agreement, and either party can terminate with a standard 30-day written notice.
-
-We believe retention should be earned by results, not enforced by contracts — which is why our client retention rate is 98%.`
-    },
-    {
-      id: "ownership",
-      title: "7. Who owns the creatives, content, and website code?",
-      content: `You do. Once final invoices are cleared, you hold 100% ownership of all deliverables created for you — ad creatives, written copy, landing pages, Figma design files, and custom website code.
-
-We can hand everything over neatly in a git repository or cloud folder. Analytics Clouds only retains rights to our internal methodologies and pre-existing tools.`
-    },
-    {
-      id: "industries",
-      title: "8. Which industries do you work with?",
-      content: `We work with brands across SaaS, e-commerce, real estate, B2B services, FinTech, healthcare, EdTech, logistics, and D2C consumer brands — in Noida, across India, and internationally.
-
-The playbooks differ by industry, but the engine is the same: data-driven targeting, conversion-focused creative, and transparent measurement. If you're unsure whether we're a fit for your niche, just ask — we'll tell you honestly.`
-    },
-    {
-      id: "one-agency",
-      title: "9. Why choose one agency instead of separate vendors for each channel?",
-      content: `Because your channels don't operate in silos — your customers move between search, social, email, and your website constantly.
-
-With one integrated team, your SEO insights feed your ad copy, your ad data informs your email segments, and your website is built to convert the traffic every channel sends. One strategy, one dashboard, one accountable partner — instead of eight vendors pointing fingers at each other.`
-    },
-    {
-      id: "getting-started",
-      title: "10. How do we get started?",
-      content: `Simple — request a free audit. Here's what happens:
-
-1. You reach out via our Contact page, phone, or email.
-2. We run a free, no-obligation audit of your current digital presence (website, SEO, ads, socials).
-3. We present a tailored growth roadmap with clear scope, timelines, and pricing.
-4. Once you approve the Statement of Work, onboarding starts — most campaigns go live within the first 1-2 weeks.
-
-There's zero commitment until you sign the SOW.`
-    },
-    {
-      id: "locations",
-      title: "11. Where are you located? Can we meet in person?",
-      content: `Yes — we're always happy to meet over chai.
-
-• Office: B-101, 1st Floor, Tower-B, Noida One, Sector 62, Noida - 201309
-• Registered Office: 917, Idgah Road, Gandhi Nagar, Unnao - 209801
-
-We serve clients across India and abroad remotely as well, with all reviews and growth calls available over video.`
-    },
-    {
-      id: "contact-faq",
-      title: "12. How can I contact the team?",
-      content: `Reach us any way that's convenient:
-
-• Email: sales@analyticsclouds.com
+• Email: [sales@analyticsclouds.com](mailto:sales@analyticsclouds.com)
 • Phone: +91 99979 69967
-• Contact page: submit a query and our Noida team responds within 24 hours.
-
-Support hours are Monday to Saturday, 9 AM - 7 PM IST.`
-    }
-  ];
+• Contact page: Submit a query and our team responds within 24 hours.`
+  }
+];
 
   const toggleSection = (id: string) => {
     setOpenSection(openSection === id ? null : id);

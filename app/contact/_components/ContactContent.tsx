@@ -146,9 +146,9 @@ export function Contact() {
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="inline-block font-mono text-xs font-semibold text-[#FE7146] tracking-wider uppercase bg-[#FFF1EC]/10 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-[#FE7146]/30"
+                className="inline-block font-mono text-xm font-semibold text-[#FE7146] tracking-wider uppercase bg-[#FFF1EC]/10 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-[#FE7146]/30"
               >
-                // CONTACT US
+                CONTACT US
               </motion.div>
 
               {/* Display Headline */}
@@ -158,9 +158,9 @@ export function Contact() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight tracking-tight font-display"
               >
-                Let's Build Something <br />
+               Let's Grow Your <br />
                 <span className="text-[#FE7146] inline-block relative">
-                  Amazing Together
+                  Business Together
                   <span className="absolute left-0 bottom-1 w-full h-1 bg-[#FE7146]/20 rounded" />
                 </span>
               </motion.h1>
@@ -172,7 +172,8 @@ export function Contact() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-gray-200 text-sm sm:text-base font-normal leading-relaxed max-w-xl"
               >
-                Have a question or ready to scale your campaigns? Reach out to our team of performance specialists and start your custom audit.
+                Whether you're starting a new project or looking to improve your digital presence, our team is here to help. Get in touch and let's discuss the right strategy for your business.
+
               </motion.p>
 
               {/* Anchor Button to Message Form */}
@@ -206,14 +207,16 @@ export function Contact() {
             {/* Left side: Recap + Direct Help Card */}
             <div className="lg:col-span-5 text-left space-y-8 lg:sticky lg:top-32">
               <div className="space-y-4">
-                <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase font-mono block">
-                  // ENGAGE WITH US
+                <span className="text-xm font-bold text-[#FE7146] tracking-widest uppercase font-mono block">
+                  ENGAGE WITH US
                 </span>
                 <h2 className="font-display font-black text-3xl sm:text-4xl text-[#303360] tracking-tight leading-tight">
-                  We review every proposal individually.
+                 No two businesses are the same, and neither are our strategies.
+
                 </h2>
                 <p className="text-slate-600 text-sm sm:text-base font-normal leading-relaxed">
-                  We don't do generic pitch decks. When you reach out, our performance leads inspect your acquisition architecture, benchmark your conversion metrics, and design a transparent strategic road-map. No sales fluff—just engineering-led growth plans.
+                  We begin by understanding your objectives, challenges, and opportunities before recommending solutions that align with your goals. Our focus is on creating practical, transparent strategies that deliver long-term value. 
+
                 </p>
               </div>
 
@@ -532,14 +535,13 @@ export function Contact() {
             {/* Left Column: Get in Touch Info Panel */}
             <div className="lg:col-span-6 flex flex-col justify-between text-left space-y-8">
               <div className="space-y-4">
-                <span className="inline-block text-xs font-bold text-[#FE7146] tracking-widest uppercase">
-                  GET IN TOUCH
-                </span>
+                
                 <h2 className="font-display font-black text-3xl sm:text-4xl text-[#303360] tracking-tight leading-snug">
-                  Our Communications Hub
+                  Let's Connect
+
                 </h2>
                 <p className="text-[#333333] text-sm sm:text-base leading-relaxed text-gray-600">
-                  Whether you prefer writing a formal email, picking up the phone for a quick discovery call, or scheduling an in-person meeting at our Noida One headquarters, we're ready to start.
+                  Whether you have a question, need expert guidance, or are ready to start your next project, we're here to help. Reach out by phone, email, or through our contact form - we'd love to hear from you
                 </p>
               </div>
 
@@ -556,11 +558,9 @@ export function Contact() {
                       Our Office Address
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-500 mt-1 leading-relaxed max-w-md">
-                      <span className="font-semibold text-[#303360]">Office:</span> B-101, 1st Floor, Tower-B, Noida One, Sector 62, Noida - 201309
+                      <span className="font-semibold text-[#303360]">Office:</span> B-102, 1st Floor, Tower-B, Noida One, Sector 62, Noida - 201309
                     </p>
-                    <p className="text-xs sm:text-sm text-gray-500 mt-1.5 leading-relaxed max-w-md">
-                      <span className="font-semibold text-[#303360]">Registered Office:</span> 917, Idgah Road, Gandhi Nagar, Unnao - 209801
-                    </p>
+                   
                   </div>
                 </div>
 
@@ -639,7 +639,7 @@ export function Contact() {
                 </div>
                 
                 <p className="text-[11px] sm:text-xs text-gray-600 font-medium leading-relaxed">
-                  B-101, 1st Floor, Tower-B, Noida One, Sector 62, Noida, Uttar Pradesh 201309
+                  B-102, 1st Floor, Tower-B, Noida One, Sector 62, Noida, Uttar Pradesh 201309
                 </p>
                 
                 <a
@@ -659,153 +659,7 @@ export function Contact() {
         </div>
       </section>
 
-      {/* 4. Our Offices Section (Noida, Gurugram, Jaipur) */}
-      <section id="our-offices" className="py-20 sm:py-28 bg-white relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
-          {/* Section Header */}
-          <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20 space-y-3">
-            <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase font-sans">
-              // OUR PRESENCE
-            </span>
-            <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[#303360] tracking-tight leading-tight">
-              Our Offices
-            </h2>
-            <p className="text-gray-500 text-sm max-w-xl mx-auto">
-              With dedicated strategy hubs across three key commercial locations in Northern India, we are positioned to fuel rapid brand growth.
-            </p>
-          </div>
-
-          {/* 3-Column Office Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            
-            {/* Card 1: Noida (Orange) */}
-            <div className="bg-white border border-gray-100 p-8 sm:p-10 rounded-3xl flex flex-col items-start text-left relative overflow-hidden shadow-sm hover:shadow-xl hover:border-orange-200 transition-all duration-300 group">
-              
-              {/* Noida custom skyline landmark line illustration inside the card */}
-              <svg className="absolute right-0 bottom-0 w-28 h-28 text-orange-500 opacity-5 pointer-events-none group-hover:scale-105 transition-transform duration-500" viewBox="0 0 100 100" fill="currentColor">
-                <rect x="15" y="35" width="16" height="55" />
-                <rect x="36" y="15" width="22" height="75" />
-                <rect x="63" y="45" width="18" height="45" />
-                <circle cx="47" cy="30" r="3" fill="white" />
-                <circle cx="47" cy="45" r="3" fill="white" />
-                <circle cx="47" cy="60" r="3" fill="white" />
-                <circle cx="23" cy="50" r="2.5" fill="white" />
-                <circle cx="23" cy="65" r="2.5" fill="white" />
-              </svg>
-
-              <div className="w-12 h-12 rounded-2xl bg-[#FFF1EC] flex items-center justify-center text-[#FE7146] mb-8 shadow-sm animate-pulse">
-                <MapPin size={24} />
-              </div>
-
-              <div className="space-y-1 mb-4">
-                <h3 className="font-display font-black text-xl text-[#303360]">
-                  Noida
-                </h3>
-                <span className="inline-block text-[10px] font-extrabold text-[#FE7146] tracking-widest uppercase bg-[#FFF1EC] px-2.5 py-1 rounded-full leading-none">
-                  Head Office
-                </span>
-              </div>
-
-              <p className="text-gray-600 text-xs sm:text-sm font-normal leading-relaxed mb-6 flex-grow max-w-xs relative z-10">
-                Tower-B, Noida One, Sector 62, Noida, Uttar Pradesh 201309, India
-              </p>
-
-              <a
-                href="https://maps.google.com/?q=Noida+One+Sector+62+Noida"
-                target="_blank"
-                rel="noreferrer"
-                className="text-xs text-[#FE7146] font-bold inline-flex items-center gap-1.5 hover:underline relative z-10"
-              >
-                <span>Get Directions</span>
-                <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
-              </a>
-            </div>
-
-            {/* Card 2: Gurugram (Purple/Indigo) */}
-            <div className="bg-white border border-gray-100 p-8 sm:p-10 rounded-3xl flex flex-col items-start text-left relative overflow-hidden shadow-sm hover:shadow-xl hover:border-indigo-200 transition-all duration-300 group">
-              
-              {/* Gurugram custom cyber hubs line illustration inside the card */}
-              <svg className="absolute right-0 bottom-0 w-28 h-28 text-indigo-500 opacity-5 pointer-events-none group-hover:scale-105 transition-transform duration-500" viewBox="0 0 100 100" fill="currentColor">
-                <polygon points="10,90 28,25 46,90" />
-                <polygon points="38,90 58,5 78,90" />
-                <polygon points="68,90 84,40 98,90" />
-                <circle cx="58" cy="30" r="3" fill="white" />
-                <circle cx="58" cy="50" r="3" fill="white" />
-                <circle cx="28" cy="50" r="2.5" fill="white" />
-              </svg>
-
-              <div className="w-12 h-12 rounded-2xl bg-indigo-50 flex items-center justify-center text-indigo-600 mb-8 shadow-sm">
-                <MapPin size={24} />
-              </div>
-
-              <div className="space-y-1 mb-4">
-                <h3 className="font-display font-black text-xl text-[#303360]">
-                  Gurugram
-                </h3>
-                <span className="inline-block text-[10px] font-extrabold text-indigo-600 tracking-widest uppercase bg-indigo-50 px-2.5 py-1 rounded-full leading-none">
-                  Cyber City Hub
-                </span>
-              </div>
-
-              <p className="text-gray-600 text-xs sm:text-sm font-normal leading-relaxed mb-6 flex-grow max-w-xs relative z-10">
-                Building 10C, Cyber City, DLF Phase 3, Sector 24, Gurugram, Haryana 122002
-              </p>
-
-              <a
-                href="https://maps.google.com/?q=DLF+Cyber+City+Gurugram"
-                target="_blank"
-                rel="noreferrer"
-                className="text-xs text-[#FE7146] font-bold inline-flex items-center gap-1.5 hover:underline relative z-10"
-              >
-                <span>Get Directions</span>
-                <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
-              </a>
-            </div>
-
-            {/* Card 3: Jaipur (Green/Emerald) */}
-            <div className="bg-white border border-gray-100 p-8 sm:p-10 rounded-3xl flex flex-col items-start text-left relative overflow-hidden shadow-sm hover:shadow-xl hover:border-emerald-200 transition-all duration-300 group">
-              
-              {/* Jaipur custom royal fort arches line illustration inside the card */}
-              <svg className="absolute right-0 bottom-0 w-28 h-28 text-emerald-500 opacity-[0.06] pointer-events-none group-hover:scale-105 transition-transform duration-500" viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="M10,90 L10,55 C10,45 22,35 34,35 C46,35 55,45 55,55 L55,90" />
-                <path d="M55,90 L55,45 C55,30 70,20 85,20 C100,20 95,30 95,45 L95,90" />
-                <circle cx="34" cy="22" r="4" fill="currentColor" />
-                <circle cx="85" cy="10" r="4" fill="currentColor" />
-              </svg>
-
-              <div className="w-12 h-12 rounded-2xl bg-emerald-50 flex items-center justify-center text-emerald-600 mb-8 shadow-sm">
-                <MapPin size={24} />
-              </div>
-
-              <div className="space-y-1 mb-4">
-                <h3 className="font-display font-black text-xl text-[#303360]">
-                  Jaipur
-                </h3>
-                <span className="inline-block text-[10px] font-extrabold text-emerald-600 tracking-widest uppercase bg-emerald-50 px-2.5 py-1 rounded-full leading-none">
-                  Creative Center
-                </span>
-              </div>
-
-              <p className="text-gray-600 text-xs sm:text-sm font-normal leading-relaxed mb-6 flex-grow max-w-xs relative z-10">
-                4th Floor, Apex Tower, Lal Kothi, Tonk Road, Jaipur, Rajasthan 302015
-              </p>
-
-              <a
-                href="https://maps.google.com/?q=Apex+Tower+Tonk+Road+Jaipur"
-                target="_blank"
-                rel="noreferrer"
-                className="text-xs text-[#FE7146] font-bold inline-flex items-center gap-1.5 hover:underline relative z-10"
-              >
-                <span>Get Directions</span>
-                <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
-              </a>
-            </div>
-
-          </div>
-
-        </div>
-      </section>
+      
 
       {/* 5. Shared CTA Banner (Visual Consistency Across Pages) */}
       <CtaBanner onContactClick={scrollToForm} />

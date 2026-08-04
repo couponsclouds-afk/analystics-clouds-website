@@ -60,29 +60,29 @@ const cashbackInventories = [
 const features = [
   {
     icon: <ShieldCheck className="w-5 h-5" />,
-    title: "Quality Assured",
-    desc: "All websites are handpicked and quality-verified.",
+    title: "Verified Publishers",
+    desc: "Every website in our network is carefully reviewed to ensure quality, relevance, and brand safety.",
     color: "text-indigo-500",
     bg: "bg-indigo-50",
   },
   {
     icon: <RefreshCw className="w-5 h-5" />,
-    title: "Regular Updates",
-    desc: "Inventories are updated on a regular basis.",
+    title: "Regularly Updated",
+    desc: "Our publisher network is continuously expanded and maintained to deliver the best opportunities for your campaigns.",
     color: "text-[#FE7146]",
     bg: "bg-[#FFF1EC]",
   },
   {
     icon: <TrendingUp className="w-5 h-5" />,
-    title: "High Performance",
-    desc: "High DA, strong relevance & great user experience.",
+    title: "Performance-Driven",
+    desc: "Partner with trusted publishers that help increase visibility, attract qualified audiences, and support your marketing goals.",
     color: "text-emerald-500",
     bg: "bg-emerald-50",
   },
   {
     icon: <Plug className="w-5 h-5" />,
-    title: "Ready to Use",
-    desc: "Plug and play inventory for your campaigns.",
+    title: "Campaign Ready",
+    desc: "Launch your campaigns quickly with a network that's built for seamless collaboration and measurable results.",
     color: "text-blue-500",
     bg: "bg-blue-50",
   },
@@ -186,11 +186,13 @@ export function Inventory(props: InventoryProps) {
       </div>
 
       <h2 className="font-display font-black text-3xl sm:text-4xl text-[#303360] leading-tight tracking-tight">
-        High-Performing Publisher Inventories
+        Expand Your Reach Through Trusted Coupon & Affiliate Platforms
+
       </h2>
 
       <p className="text-[#333333]/70 text-sm sm:text-base font-normal">
-        Scale your performance marketing campaigns across top-tier cashback & coupon portals with proven reach.
+        Promote your brand across our carefully curated network of high-quality coupon, deal, and affiliate websites. Reach customers with strong purchase intent and drive more traffic, leads, and conversions through trusted publisher partnerships.
+
       </p>
     </div>
 

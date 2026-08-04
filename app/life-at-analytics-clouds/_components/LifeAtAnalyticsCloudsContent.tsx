@@ -411,15 +411,17 @@ export function LifeAtAnalyticsClouds() {
               </div>
 
               <h1 className="font-display font-extrabold text-4xl sm:text-5xl lg:text-7xl text-white leading-[1.05] tracking-tight">
-                Where Great People <br />
-                Do <span className="text-[#FE7146] relative inline-block">
-                  Great Work
+                Grow Your Career
+ <br />
+                <span className="text-[#FE7146] relative inline-block">
+                  with Us
                   <span className="absolute left-0 bottom-2 w-full h-1.5 bg-[#FE7146]/20 rounded-full" />
                 </span>
               </h1>
 
               <p className="text-gray-200 text-base sm:text-lg font-normal leading-relaxed max-w-2xl">
-                Join our elite squad of digital strategists, paid campaign leads, and growth engineers in Noida. We combine deep data analytics with relentless creative freedom to scale India's finest digital brands.
+                At Analytics Clouds, you'll work alongside talented professionals on exciting projects, learn new skills, and contribute to solutions that help businesses grow.
+
               </p>
 
               {/* See open roles button */}
@@ -493,10 +495,10 @@ export function LifeAtAnalyticsClouds() {
       </section>
 
       {/* 2. Our Culture & Values - icon + punchy description */}
-      <section id="why-analytics-clouds" className="py-20 sm:py-28 bg-white relative">
+      {/* <section id="why-analytics-clouds" className="py-20 sm:py-28 bg-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
-          {/* Header */}
+     
           <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20 space-y-4">
             <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase bg-[#FFF1EC] px-3.5 py-1.5 rounded-full">
               OUR CULTURE
@@ -509,7 +511,7 @@ export function LifeAtAnalyticsClouds() {
             </p>
           </div>
 
-          {/* Values Grid */}
+        
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {cultureValues.map((val, idx) => (
               <div
@@ -532,22 +534,22 @@ export function LifeAtAnalyticsClouds() {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
-      {/* 3. A Day in the Life - Masonry / Asymmetric Gallery with hover zoom */}
+   
       <section id="gallery-section" className="py-20 sm:py-28 bg-[#F5F5FA] border-t border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Header */}
           <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20 space-y-4">
-            <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase">
-              A DAY IN THE LIFE
-            </span>
+          
             <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[#303360] tracking-tight leading-tight">
-              Moments That Make Us <span className="text-[#FE7146]">Who We Are</span>
+              Celebrating the Moments
+ <span className="text-[#FE7146]"> That Bring Us Together</span>
             </h2>
             <p className="text-[#333333] text-sm sm:text-base leading-relaxed text-gray-500 max-w-xl mx-auto">
-              Real candids, actual brainstorm boards, game nights, and shared samosas. Peek inside our daily routines and celebrations.
+              From brainstorming sessions and team celebrations to game days and our annual company trips, every moment strengthens the relationships that make Analytics Clouds more than just a workplace. 
+
             </p>
           </div>
 
@@ -584,10 +586,10 @@ export function LifeAtAnalyticsClouds() {
    
 
       {/* 5. Perks & Benefits - Grid of cards */}
-      <section id="perks" className="py-20 sm:py-28 bg-[#F5F5FA] border-y border-gray-100 relative">
+      {/* <section id="perks" className="py-20 sm:py-28 bg-[#F5F5FA] border-y border-gray-100 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
-          {/* Header */}
+
           <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20 space-y-4">
             <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase">
               WHY YOU'LL LOVE IT HERE
@@ -600,7 +602,7 @@ export function LifeAtAnalyticsClouds() {
             </p>
           </div>
 
-          {/* Perks Grid */}
+       
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {perks.map((perk, idx) => (
               <div
@@ -623,7 +625,7 @@ export function LifeAtAnalyticsClouds() {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
       {/* 6. Open Positions - Accordion / Job List with Apply trigger */}
       <section id="open-positions-section" className="py-20 sm:py-28 bg-white">

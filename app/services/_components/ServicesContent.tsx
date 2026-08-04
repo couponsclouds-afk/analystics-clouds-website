@@ -348,53 +348,7 @@ export function Services(props: ServicesPageProps) {
         </div>
       </section>
 
-      {/* SECTION 2: SERVICE GROUPING STRIP (Orientation Aid) */}
-      <section className="sticky top-[72px] z-40 bg-white/95 backdrop-blur-md border-b border-gray-100 py-4 shadow-xs">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <span className="text-xs font-mono font-bold text-slate-400 tracking-wider">
-              ORIENTATION FILTER:
-            </span>
-
-            <div className="flex flex-wrap justify-center gap-2 sm:gap-3">
-              {[
-                { label: "PAID MEDIA", key: "PAID", count: "3 Services" },
-                { label: "ORGANIC & SOCIAL", key: "ORGANIC & SOCIAL", count: "2 Services" },
-                { label: "DIRECT & CREATIVE", key: "DIRECT & CREATIVE", count: "3 Services" }
-              ].map((group) => {
-                const isActive = activeGroup === group.key;
-                return (
-                  <button
-                    key={group.key}
-                    onClick={() => handleGroupAction(group.key as any)}
-                    className={`px-4 py-2 rounded-xl text-xs font-mono font-black transition-all flex items-center gap-2 cursor-pointer border ${isActive
-                      ? "bg-[#303360] text-white border-[#303360] shadow-md shadow-[#303360]/10"
-                      : "bg-[#F5F5FA] text-slate-600 hover:text-[#303360] hover:bg-[#F5F5FA]/80 border-transparent"
-                      }`}
-                  >
-                    <span>{group.label}</span>
-                    <span className={`px-1.5 py-0.5 rounded-md text-[10px] ${isActive ? "bg-[#FE7146] text-white" : "bg-slate-200 text-slate-500 font-bold"}`}>
-                      {group.count}
-                    </span>
-                  </button>
-                );
-              })}
-
-              {activeGroup && (
-                <button
-                  onClick={() => {
-                    setActiveGroup(null);
-                    setHighlightedServiceIds([]);
-                  }}
-                  className="px-3 py-2 text-xs font-mono font-bold text-[#FE7146] hover:underline cursor-pointer"
-                >
-                  Clear filter
-                </button>
-              )}
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* SECTION 3: MAIN SERVICES SHOWCASE (Signature Interactive Element) */}
       <section id="services-showcase" ref={showcaseRef} className="py-24 bg-white">
@@ -544,9 +498,9 @@ export function Services(props: ServicesPageProps) {
       </section>
 
       {/* SECTION 4: WHY ONE AGENCY, NOT EIGHT VENDORS (Differentiator Band) */}
-      <section className="py-24 bg-[#303360] text-white relative overflow-hidden">
+      {/* <section className="py-24 bg-[#303360] text-white relative overflow-hidden">
 
-        {/* Geometric dark accents */}
+ 
         <div className="absolute inset-0 bg-[radial-gradient(#ffffff03_1px,transparent_1px)] [background-size:16px_16px] opacity-80"></div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-white/[0.01] border border-white/[0.03] pointer-events-none"></div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full bg-white/[0.01] border border-white/[0.04] pointer-events-none"></div>
@@ -554,7 +508,7 @@ export function Services(props: ServicesPageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
 
-            {/* Left Col: Core Pitch & 4 Differentiators */}
+      
             <div className="lg:col-span-6 space-y-10 text-left">
               <div className="space-y-4">
                 <span className="text-xl font-mono font-black text-[#FE7146] tracking-widest uppercase block">
@@ -569,7 +523,7 @@ export function Services(props: ServicesPageProps) {
                 </p>
               </div>
 
-              {/* 4 Differentiators */}
+  
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
                 {[
                   {
@@ -608,22 +562,22 @@ export function Services(props: ServicesPageProps) {
               </div>
             </div>
 
-            {/* Right Col: Custom Hub-and-Spoke Node Diagram */}
+         
             <div className="lg:col-span-6 flex justify-center items-center">
               <div className="relative w-[340px] h-[340px] sm:w-[420px] sm:h-[420px] flex items-center justify-center">
 
-                {/* SVG Connecting lines with flowing particles */}
+               
                 <svg className="absolute inset-0 w-full h-full pointer-events-none overflow-visible">
                   {spokesAngles.map((angle, i) => {
                     const rad = (angle * Math.PI) / 180;
-                    // Compute absolute positions inside a 100% box
+                 
                     const r = radius;
                     const x = Math.cos(rad) * r;
                     const y = Math.sin(rad) * r;
 
                     return (
                       <g key={i}>
-                        {/* Connecting Line */}
+                     
                         <line
                           x1="50%"
                           y1="50%"
@@ -635,7 +589,6 @@ export function Services(props: ServicesPageProps) {
                           strokeDasharray="4 4"
                         />
 
-                        {/* Pulsing Particle flowing inwards */}
                         {!prefersReducedMotion && (
                           <motion.circle
                             cx={`calc(50% + ${x}px)`}
@@ -660,7 +613,7 @@ export function Services(props: ServicesPageProps) {
                   })}
                 </svg>
 
-                {/* CENTRAL HUB NODE: Analytics Clouds */}
+         
                 <div className="absolute z-20 w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-white flex flex-col items-center justify-center border-4 border-[#FE7146] shadow-2xl shadow-[#FE7146]/40 text-[#303360] text-center select-none">
                   <Cloud className="w-8 h-8 text-[#FE7146] animate-bounce duration-[3000ms]" />
                   <span className="font-display font-black text-[9px] sm:text-[10px] tracking-wider uppercase leading-none mt-1">
@@ -669,18 +622,18 @@ export function Services(props: ServicesPageProps) {
                   <span className="font-display font-black text-[9px] sm:text-[10px] tracking-wider uppercase leading-none text-[#FE7146]">
                     CLOUDS
                   </span>
-                  {/* Rotating border effect */}
+     
                   <div className="absolute -inset-2.5 rounded-full border-2 border-dashed border-white/20 animate-spin duration-[20s]"></div>
                 </div>
 
-                {/* 8 SPOKE NODES around the central hub */}
+             
                 {spokesAngles.map((angle, i) => {
                   const rad = (angle * Math.PI) / 180;
                   const x = Math.cos(rad) * radius;
                   const y = Math.sin(rad) * radius;
 
                   const service = spokesServices[i];
-                  // Alternating color profiles
+             
                   const isOrangeNode = i % 2 === 0;
 
                   return (
@@ -692,7 +645,7 @@ export function Services(props: ServicesPageProps) {
                         top: `calc(50% + ${y}px)`
                       }}
                     >
-                      {/* Node circle */}
+                    
                       <div className={`w-9 h-9 sm:w-11 sm:h-11 rounded-full flex items-center justify-center transition-all shadow-md ${isOrangeNode
                         ? "bg-[#FFF1EC] border-2 border-[#FE7146] text-[#FE7146] group-hover:bg-[#FE7146] group-hover:text-white"
                         : "bg-white/[0.07] border border-white/20 text-white group-hover:bg-white group-hover:text-[#303360]"
@@ -700,7 +653,7 @@ export function Services(props: ServicesPageProps) {
                         {service.icon}
                       </div>
 
-                      {/* Tooltip Label */}
+                  
                       <span className="opacity-70 group-hover:opacity-100 text-[8px] sm:text-[10px] font-mono font-bold tracking-tight text-slate-300 group-hover:text-[#FE7146] transition-colors whitespace-nowrap bg-[#303360]/90 px-1.5 py-0.5 rounded border border-white/5">
                         {service.name}
                       </span>
@@ -713,7 +666,7 @@ export function Services(props: ServicesPageProps) {
 
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 

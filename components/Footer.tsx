@@ -135,50 +135,7 @@ export function Footer() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         
-        {/* 1. Integrated CTA Band (Top of Footer) */}
-        <div className="bg-[#24264d] border border-white/10 rounded-3xl p-6 sm:p-8 lg:p-10 relative overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300">
-          
-          {/* Subtle background decorative layout mesh */}
-          <div className="absolute right-0 top-0 bottom-0 w-1/3 bg-radial-gradient from-[#FE7146]/10 via-transparent to-transparent opacity-40 pointer-events-none" />
-
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 relative z-10 text-left">
-            
-            {/* Left side info */}
-            <div className="flex items-start sm:items-center gap-4">
-              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-[#303360] border-2 border-[#FE7146] flex items-center justify-center shadow-[0_0_15px_rgba(254,113,70,0.2)] shrink-0">
-                <TrendingUp className="w-6 h-6 text-[#FE7146]" />
-              </div>
-              <div className="space-y-1.5">
-                <h3 className="font-display font-black text-xl sm:text-2xl text-white leading-tight tracking-tight">
-                  Ready to <span className="text-[#FE7146]">Grow</span> Your Business?
-                </h3>
-                <p className="text-gray-400 text-xs sm:text-sm font-normal">
-                  Let's build data-driven strategies that bring real results.
-                </p>
-              </div>
-            </div>
-
-            {/* Right side buttons */}
-            <div className="flex flex-col sm:flex-row gap-3.5 sm:items-center justify-start lg:justify-end shrink-0">
-              <button
-                onClick={handleConsultationClick}
-                className="bg-[#FE7146] hover:bg-[#e0562b] text-white font-extrabold text-xs sm:text-sm px-6 py-3.5 rounded-xl shadow-lg shadow-[#FE7146]/15 hover:shadow-[#FE7146]/25 transition-all text-center flex items-center justify-center gap-1.5 hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-              >
-                <span>Get Free Consultation</span>
-                <ArrowRight size={14} />
-              </button>
-              
-              <button
-                onClick={handleWorkClick}
-                className="bg-transparent hover:bg-white/5 text-white border border-white/20 hover:border-white font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl transition-all text-center flex items-center justify-center gap-1.5 hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
-              >
-                <span>View Our Work</span>
-                <ArrowRight size={14} />
-              </button>
-            </div>
-
-          </div>
-        </div>
+       
 
         {/* 2. Main Footer Body (4-Column Layout, 5:2:2.5:2.5 ratio —
             fractional widths live in the grid template itself) */}
@@ -367,18 +324,12 @@ export function Footer() {
               </div>
 
               <ul className="space-y-3.5 text-xs text-gray-400">
-                <li className="flex gap-2.5 items-start">
-                  <MapPin size={16} className="text-[#FE7146] shrink-0 mt-0.5" />
-                  <span className="leading-relaxed">
-                    <span className="text-gray-300 font-semibold block">Registered Office:</span>
-                    917, Idgah Road, Gandhi Nagar, Unnao - 209801
-                  </span>
-                </li>
+               
                 <li className="flex gap-2.5 items-start">
                   <MapPin size={16} className="text-[#FE7146] shrink-0 mt-0.5" />
                   <span className="leading-relaxed">
                     <span className="text-gray-300 font-semibold block">Office:</span>
-                    B-101, 1st Floor, Tower-B, Noida One, Sector 62, Noida - 201309
+                    B-102, 1st Floor, Tower-B, Noida One, Sector 62, Noida - 201309
                   </span>
                 </li>
                 <li className="flex gap-2.5 items-center">
