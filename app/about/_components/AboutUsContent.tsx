@@ -20,7 +20,6 @@ import {
   Gem,
   Check,
   Linkedin,
-  Twitter,
   Mail,
   Cloud,
   ArrowUpRight,
@@ -230,27 +229,37 @@ export function AboutUs(props: AboutUsProps) {
     {
       name: "Vineet Srivastava",
       role: "Founder & CEO ",
-      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831096/1_j4ebnn.png"
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831096/1_j4ebnn.png",
+      linkedin: "https://www.linkedin.com/in/vineet-srivastava-257561ab/",
+      email: "vineet@analyticsclouds.com"
     },
     {
       name: "Deepika Arora",
       role: "Business Head",
-      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831096/5_ksgpqv.png"
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831096/5_ksgpqv.png",
+      linkedin: "https://www.linkedin.com/in/deepika-arora-4b1021b7/",
+      email: "deepika@analyticsclouds.com"
     },
     {
-      name: "Nameeta Srivastava",
+      name: "Namita Srivastava",
       role: "Finance Manager",
-      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831102/3_iy2buc.png"
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831102/3_iy2buc.png",
+      linkedin: "https://www.linkedin.com/in/namita-srivastava-241b31215",
+      email: "finance@analyticsclouds.com"
     },
     {
       name: "Sagar Kumar",
       role: "Delivery Head",
-      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831102/4_ph7dvc.png"
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831102/4_ph7dvc.png",
+      linkedin: "https://www.linkedin.com/in/sagar-kumar-607476129/",
+      email: "sagar@analyticsclouds.com"
     },
     {
       name: "Harshita Tiwari",
       role: "Affiliate Marketing & Sales Manager",
-      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831101/2_qdaqxy.png"
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831101/2_qdaqxy.png",
+      linkedin: "https://www.linkedin.com/in/harshita-tiwari-3458b6191/",
+      email: "harshita.tiwari@analyticsclouds.com"
     }
   ];
 
@@ -574,18 +583,22 @@ export function AboutUs(props: AboutUsProps) {
                   </div>
 
                   <div className="flex gap-2 pt-2 border-t border-gray-50">
-                    {[
-                      { icon: <Linkedin size={13} /> },
-                      { icon: <Twitter size={13} /> },
-                      { icon: <Mail size={13} /> }
-                    ].map((soc, sIdx) => (
-                      <button
-                        key={sIdx}
-                        className="w-7 h-7 rounded-lg bg-slate-50 hover:bg-[#FFF1EC] text-slate-400 hover:text-[#FE7146] flex items-center justify-center transition-all duration-300 cursor-pointer"
-                      >
-                        {soc.icon}
-                      </button>
-                    ))}
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${member.name} on LinkedIn`}
+                      className="w-7 h-7 rounded-lg bg-slate-50 hover:bg-[#FFF1EC] text-slate-400 hover:text-[#FE7146] flex items-center justify-center transition-all duration-300 cursor-pointer"
+                    >
+                      <Linkedin size={13} />
+                    </a>
+                    <a
+                      href={`mailto:${member.email}`}
+                      aria-label={`Email ${member.name}`}
+                      className="w-7 h-7 rounded-lg bg-slate-50 hover:bg-[#FFF1EC] text-slate-400 hover:text-[#FE7146] flex items-center justify-center transition-all duration-300 cursor-pointer"
+                    >
+                      <Mail size={13} />
+                    </a>
                   </div>
                 </div>
 

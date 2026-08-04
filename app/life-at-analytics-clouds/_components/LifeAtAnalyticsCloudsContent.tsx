@@ -257,32 +257,32 @@ export function LifeAtAnalyticsClouds() {
   // Gallery images for "A Day in the Life"
   const galleryImages = [
     {
-      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785831447/WhatsApp_Image_2026-07-09_at_4.36.26_PM_xo3zxi.jpg",
+      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785837714/2_cz9iiz.png",
       caption: "Spontaneous whiteboard session over campaign parameters",
-      aspect: "row-span-2 col-span-1 h-[420px] md:h-full"
+      aspect: "row-span-2 col-span-1 h-[300px] md:h-full"
     },
     {
-      src: "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=800&h=500&q=80",
+      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785837729/1_aruwbd.png",
       caption: "Weekly content brainstorm in Noida conference room",
       aspect: "col-span-1 md:col-span-2 h-[200px] md:h-[240px]"
     },
     {
-      src: "https://images.unsplash.com/photo-1542744173-8e0856011213?auto=format&fit=crop&w=500&h=500&q=80",
+      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785837741/2_ezkoem.png",
       caption: "Reviewing performance marketing metrics together",
       aspect: "col-span-1 h-[200px] md:h-[240px]"
     },
     {
-      src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&h=500&q=80",
+      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785837742/1_ezdb4b.png",
       caption: "Relaxing and laughing in our DLF Noida breakroom",
       aspect: "col-span-1 h-[200px] md:h-[220px]"
     },
     {
-      src: "https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?auto=format&fit=crop&w=500&h=700&q=80",
+      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785837714/1_ojvc7z.png",
       caption: "Ananya mapping out next month's organic SEO roadmap",
-      aspect: "row-span-2 col-span-1 h-[420px] md:h-full"
+      aspect: "row-span-2 col-span-1 h-[300px] md:h-full"
     },
     {
-      src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&h=500&q=80",
+      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785837729/2_jrioje.png",
       caption: "Celebrating a 500% ROI milestone with team lunch",
       aspect: "col-span-1 md:col-span-2 h-[200px] md:h-[220px]"
     }

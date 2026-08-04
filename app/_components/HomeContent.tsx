@@ -498,7 +498,7 @@ export function Home(props: HomeProps) {
         {/* Full-bleed background photograph */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://res.cloudinary.com/couponsbit/image/upload/v1785830052/Home_klceut.png"
+            src="https://res.cloudinary.com/couponsbit/image/upload/v1785832212/Untitled_design_24_bqoykn.png"
             
             alt="Analytics Clouds Campaign Strategy Team"
             className="w-full h-full object-cover object-center scale-105 filter brightness-95"
@@ -729,7 +729,7 @@ export function Home(props: HomeProps) {
           {/* Left Column: Second Real Photograph with scrim */}
           <div className="lg:col-span-5 relative min-h-[350px] lg:min-h-full overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=85"
+              src="https://res.cloudinary.com/couponsbit/image/upload/v1785836587/Untitled_design_26_kscged.png"
               alt="Analytics Clouds client and campaign team meeting"
               className="absolute inset-0 w-full h-full object-cover"
               referrerPolicy="no-referrer"
