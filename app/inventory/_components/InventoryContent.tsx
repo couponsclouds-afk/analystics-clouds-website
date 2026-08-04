@@ -125,7 +125,7 @@ export function Inventory(props: InventoryProps) {
                 transition={{ duration: 0.5 }}
                 className="inline-block font-mono text-xs font-semibold text-[#FE7146] tracking-wider uppercase bg-[#FFF1EC]/10 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-[#FE7146]/30"
               >
-                // CONTACT US
+                INVENTORY
               </motion.div>
 
               <motion.h1
@@ -134,9 +134,9 @@ export function Inventory(props: InventoryProps) {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight tracking-tight font-display"
               >
-                Let's Build Something <br />
+                Let's Grow Your <br />
                 <span className="text-[#FE7146] inline-block relative">
-                  Amazing Together
+                  Business Together
                   <span className="absolute left-0 bottom-1 w-full h-1 bg-[#FE7146]/20 rounded" />
                 </span>
               </motion.h1>
@@ -147,7 +147,7 @@ export function Inventory(props: InventoryProps) {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-gray-200 text-sm sm:text-base font-normal leading-relaxed max-w-xl"
               >
-                Have a question or ready to scale your campaigns? Reach out to our team of performance specialists and start your custom audit.
+                Whether you're looking to generate more leads, increase sales, or strengthen your digital presence, our team is here to help. Let's discuss your goals and create a strategy that delivers measurable results.
               </motion.p>
 
               <motion.div

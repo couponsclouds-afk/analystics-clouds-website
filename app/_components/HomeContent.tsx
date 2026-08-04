@@ -26,7 +26,8 @@ import {
   Zap,
   BarChart2,
   Star,
-  Quote
+  Quote,
+  Globe
 } from "lucide-react";
 import { CtaBanner } from '@/components/CtaBanner';
 
@@ -311,87 +312,137 @@ export function Home(props: HomeProps) {
   // Testimonials with outcome-specific quotes
   const testimonials = [
     {
-      quote: "Analytics Clouds has consistently proven to be one of our top-performing partners, driving significant business outcomes for us at Just herbs (Marico). Specially, working with Sanjeev as our point of contact has been a true value-add he's proactive, detail-oriented, and always focused on delivering results. His ability to understand our goals and align the team accordingly has made our collaboration smooth and impactful.",
+      quote: "Analytics Clouds has been a reliable affiliate partner for Just Herbs, consistently delivering quality traffic and measurable business results. Working with Sanjeev has been effortless—he understands our objectives, communicates proactively, and ensures campaigns run smoothly. Their team's commitment and responsiveness have made them a trusted extension of our marketing efforts. We look forward to growing this partnership in the years ahead.",
       author: "Chandan Choudhary",
       role: "Marketing Head",
       company: "Just Herbs",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&h=120&q=80"
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825776/justherbs-logosss_svypvv.jpg"
     },
     {
-      quote: "Heartfelt congratulations on reaching an incredible milestone — 5 years of innovation, growth, and impact! Your dedication to delivering quality, building strong partnerships, and pushing boundaries in your field has set a great example for others in the industry. Wishing the entire team at Analytics Clouds continued success and many more milestones ahead! Sanjeev has been one of the best colleagues to interact with and truly understand both sides of the business. Together, we have contributed greatly for each other's business goals and hope to continue this relationship for many more years to come.",
+      quote: "Working with Analytics Clouds has been a rewarding experience. Their team understands performance marketing, responds quickly, and always focuses on delivering value. Sanjeev has been particularly supportive, making collaboration seamless from planning to execution. We're proud to be associated with Analytics Clouds and wish the entire team continued success in the years to come.",
       author: "Manish Raj",
       role: "Business Development Manager",
       company: "CosIQ",
-      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&h=120&q=80"
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825776/CosIQ-iogo_afgmyd.jpg"
     },
     {
-      quote: "Working with Deepika was an extremely great experience. She communicated professionally, quickly, and effectively from the start. She displayed a thorough understanding of their product and was always prepared to go the extra mile to help us.",
+      quote: "Deepika has been an absolute pleasure to work with. Her responsiveness, professionalism, and understanding of our business requirements have made campaign execution smooth and hassle-free. She's always available to help and goes the extra mile whenever needed. We truly appreciate the support from the Analytics Clouds team.",
       author: "Madhav",
       role: "CEO",
-      company: "The Man company",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
+      company: "The Man Company",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825777/The-Man-company-logo_fmnvk8.jpg"
     },
     {
-      quote: "It's nice working with Analytics Clouds as our affiliate Partner Secondly. When we started things were a little complicated. But, the organization managed so well at that time to make this smooth. So, Hats off to the entire Analytics Clouds team Good Luck and best wishes for mutual future growth.",
+      quote: "Our partnership with Analytics Clouds has grown stronger over time. From onboarding to campaign execution, the team has been supportive, organized, and easy to work with. They handled every challenge professionally and ensured everything stayed on track. Wishing the entire team continued success and many more achievements ahead.",
       author: "Sahil Chawla",
       role: "Business Development Manager",
       company: "GNC",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825777/GNC-logo-2048x2048_vbno1u.jpg"
     },
     {
-      quote: "Heartfelt congratulations on reaching an incredible milestone — 5 years of innovation, growth, and impact! It's truly inspiring to see how far Analytics Clouds has come. Your dedication to delivering quality, building strong partnerships, and pushing boundaries in your field has set a great example for others in the industry. We are proud to be associated with you and value the partnership we share. Here's to many more years of collaboration, achievements, and mutual growth. Wishing the entire team at Analytics Clouds continued success and many more milestones ahead!.",
+      quote: "Analytics Clouds has been a dependable performance marketing partner for our campaigns. Their strategic approach, transparent communication, and commitment to quality have helped us achieve better outcomes. It's been great working together, and we look forward to building an even stronger partnership in the future.",
       author: "Aman",
       role: "CEO",
       company: "Kent RO",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
-    },{
-      quote: "It has been a pleasure working with your company in the past 3 years! Sanjeev has been one of the best colleagues to interact with and truly understand both sides of the business. Together, we have contributed greatly for each other's business goals and hope to continue this relationship for many more years to come. Onwards and upwards!.",
-      author: "Madhav",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825777/Kent-RO-logo_omcksw.jpg"
+    },
+    {
+      quote: "We've had a fantastic experience working with Analytics Clouds over the last few years. Sanjeev and the team understand business requirements well and consistently deliver value through strong execution and communication. It's a partnership built on trust, and we look forward to many more successful years together.",
+      author: "Mandar",
       role: "Marketing Head",
-      company: "Tax buddy",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
+      company: "TaxBuddy",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825777/Tax-buddy-logo_ytvmsa.jpg"
     },
     {
-      quote: "Congratulations to you and the entire Analytics Clouds team on completing 5 incredible years! Working with you has been an absolute pleasure. Your proactive approach, prompt support, and clear understanding of our requirements have made coordination smooth and effective. You've always ensured that things move forward seamlessly, and that's been a big part of why our collaboration with Analytics Clouds has been so successful. Analytics Clouds has played a valuable role in helping us derive meaningful insights and optimize our campaigns more efficiently. Your team's support and expertise have truly made a difference. Wishing you and the team continued success and many more milestones ahead!.",
-      author: "Madhav",
-      role: "CEO",
+      quote: "Working with Analytics Clouds has been a seamless experience. Their proactive communication, quick turnaround times, and deep understanding of affiliate marketing have helped us optimize campaigns more effectively. The team's dedication and willingness to support us at every stage make them a valuable long-term partner.",
+      author: "Team Foxtale",
+      role: "Marketing Team",
       company: "Foxtale",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825777/foxtale-logosss_mbmp5k.jpg"
     },
     {
-      quote: "As an affiliate partner focused on performance marketing, I am thoroughly impressed with Analytics Clouds. Their team combines deep expertise in digital strategy with a results-driven approach, consistently delivering measurable growth and high ROI for our campaigns. Their focus on data-driven performance marketing ensures that every campaign is optimized for conversions, not just clicks, helping us turn more visitors into loyal customers. The team's professionalism, creative thinking, and commitment to partner success make them a top choice for any brand seeking to scale with performance-based affiliate marketing. I highly recommend Analytics Clouds to anyone looking for a reliable, innovative, and growth-oriented affiliate partner in the performance marketing space.",
-      author: "Madhav",
+      quote: "Analytics Clouds brings the perfect balance of strategy, execution, and performance. Their team understands affiliate marketing inside out and consistently focuses on delivering measurable ROI. They are proactive, data-driven, and committed to partner success. We highly recommend them to brands looking for a reliable affiliate marketing partner.",
+      author: "Yash",
       role: "CEO",
       company: "Nua Woman",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825778/nua-logo111_diuioy.jpg"
     },
     {
-      quote: "The team at Analytics Cloud are more like a growth partner their proactive approach and strong affiliate network helped us reach the right audiences and drive consistent results. Congratulations on completing 5 years.",
+      quote: "Analytics Clouds has been much more than an affiliate partner—they've become a growth partner for our brand. Their proactive approach, quality publisher network, and commitment to performance have helped us reach the right audience and achieve consistent results. It's been a pleasure working with the team.",
       author: "Rahul Maheshwari",
       role: "Marketing Head",
       company: "Salty",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825778/salty-logos_xe761h.jpg"
     },
     {
-      quote: "The team at Analytics Cloud are more like a growth partner, their proactive approach and strong affiliate network helped us reach the right audiences and drive consistent results. Congratulations on completing 5 years.",
-      author: "Salty",
+      quote: "Analytics Clouds played an important role in the success of our Jockey affiliate campaigns. Their expertise in affiliate marketing, combined with clear communication and timely execution, helped us generate quality traffic and better conversions. We appreciate their professionalism and look forward to continuing our partnership.",
+      author: "Philona Choudhary",
       role: "Marketing Head",
-      company: "Salty",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
+      company: "First Economy",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825778/Jockey-logo_z9ua5p.jpg"
     },
     {
-      quote: "Working with Analytics Cloud on the Jockey campaign has been a smooth and result-driven experience. Their team effectively utilized affiliate channels like cashback sites and Telegram to drive quality traffic and conversions. Communication was clear, timely, and professional throughout. We look forward to continuing this successful partnership.",
-      author: "",
-      role: "Marketing Head",
-      company: "Philona Choudhary",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
-    },
-    {
-      quote: "Your expertise and dedication have been invaluable. Here's to many more years of growth, innovation, and success! Thank you for your hard work and commitment. We look forward to continued collaboration and success.",
-      author: "Ministry of Nuts",
-      role: "Marketing Head",
+      quote: "Working with Analytics Clouds has been a wonderful experience. Their team is committed, responsive, and always focused on delivering results. We truly appreciate their support, professionalism, and dedication throughout our collaboration. Looking forward to many more successful campaigns together.",
+      author: "Team Ministry of Nuts",
+      role: "Marketing Team",
       company: "Ministry of Nuts",
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825778/mon-logo_kqaujz.jpg"
+    },
+    {
+      quote: "Analytics Clouds has consistently provided excellent support and reliable affiliate marketing services. Their team understands our goals, communicates effectively, and delivers quality results. We appreciate their dedication and are excited to continue this successful partnership.",
+      author: "Team Scentials World",
+      role: "Marketing Team",
+      company: "Scentials World",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825776/ScentialsWorld-logo_xn12rm.jpg"
+    },
+    {
+      quote: "Analytics Clouds has been a valuable affiliate partner for Superkicks. Their efforts in driving quality traffic, creating engaging campaigns, and maintaining transparent communication have contributed positively to our growth. We appreciate their dedication and look forward to achieving even greater success together.",
+      author: "Ranveer",
+      role: "Marketing Team",
+      company: "Superkicks",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825776/Superkick-logo_fjuhi5.jpg"
+    },
+    {
+      quote: "Our experience with Analytics Clouds has been outstanding. Deepika Arora and the team have always been proactive, responsive, and committed to helping us scale affiliate revenue. Their strategic inputs and consistent support have made them a trusted marketing partner for Dot & Key.",
+      author: "Jigar",
+      role: "Marketing Team",
+      company: "Dot & Key",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825776/dot-and-key-logo_rp1m0k.webp"
+    },
+    {
+      quote: "Analytics Clouds has consistently delivered impressive campaign performance and quality results. The team is responsive, dependable, and always willing to support whenever required. We appreciate their dedication and look forward to strengthening this partnership in the future.",
+      author: "Vinayak Kumar",
+      role: "Content & Marketing Manager",
+      company: "CarDekho",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825777/cardekho-logo-150x150-1_bofe7e.png"
+    },
+    {
+      quote: "It has been a great experience working with Analytics Clouds. Deepika Arora has always been proactive, resourceful, and highly responsive. Campaign coordination is smooth, offers are shared on time, and communication is always clear. Their professionalism and planning have made them a trusted affiliate partner for SuperBottoms.",
+      author: "Shweta Potdar",
+      role: "Community Growth Manager",
+      company: "SuperBottoms",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825777/617146f5a57b136f44d79006_1634813685394_y3xf0s.webp"
+    },
+    {
+      quote: "Analytics Clouds has consistently helped us grow our affiliate marketing channel with quality traffic and strong performance. Their team is knowledgeable, responsive, and focused on delivering results. We value their attention to detail and highly recommend them to brands looking for a dependable affiliate marketing partner.",
+      author: "Nikhilesh",
+      role: "Sr. Executive – Digital Marketing",
+      company: "XYXX Crew",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825777/logo_3_dyjasv.jpg"
+    },
+    {
+      quote: "Analytics Clouds combines strong industry expertise with a performance-driven approach that delivers real business value. Their dedicated support, quality publisher network, and commitment to achieving results make them an excellent affiliate marketing partner. We highly recommend working with their team.",
+      author: "Akshit Bansal",
+      role: "Partnership Marketing Specialist",
+      company: "Boult",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825777/0bcb06e1-b1e5-49f7-8370-e99f6e4e5fbc_swpfjz.png"
+    },
+    {
+      quote: "Collaborating with Analytics Clouds has been a smooth and productive experience. Their team consistently delivers reports and campaign updates on time while remaining responsive, even during critical periods. Their professionalism, dedication, and reliability have made them an important partner in achieving our marketing goals.",
+      author: "Amitha",
+      role: "Senior Digital Marketing Executive",
+      company: "Cultsport",
+      avatar: "https://res.cloudinary.com/couponsbit/image/upload/v1785825776/cultsport_jrdv73.png"
     }
   ];
 
@@ -827,6 +878,174 @@ export function Home(props: HomeProps) {
         </div>
       </section> */}
 
+      {/* 7. Latest Insights (Blog Preview) */}
+      <section className="py-24 bg-white relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+    
+          <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+            <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase font-mono block">
+              // LATEST INSIGHTS
+            </span>
+            <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[#303360] leading-tight tracking-tight">
+              PROUD TO PARTNER WITH
+            </h2>
+            <p className="text-[#333333]/70 text-base max-w-xl mx-auto font-normal">
+              Practical guides and actionable insights from our senior performance strategists.
+            </p>
+          </div>
+
+ <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h3 className="font-display font-black text-2xl sm:text-3xl lg:text-4xl text-[#303360] leading-tight tracking-tight">
+              DOMESTIC
+            </h3>
+            </div>
+
+          {/* Simple Brand Logo Slider */}
+          <div className="w-full max-w-7xl mx-auto px-4 py-8 relative">
+            {/* Outer Container with Overflow Hidden */}
+            <div className="overflow-hidden">
+              <div className="flex gap-6 items-center justify-center overflow-x-auto scrollbar-none py-4">
+
+                {/* 1. Pilgrim / Pilolo Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827457/pilolo-Logo_yojbcw.jpg"
+                    alt="Pilolo Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 2. GoEye Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827457/goeye-Logo_ftqqzo.jpg"
+                    alt="GoEye Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 3. Ustraa Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827457/Ustraa-Logo_wtilya.jpg"
+                    alt="Ustraa Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 4. Blur Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827457/blur-logo_u9yweb.jpg"
+                    alt="Blur Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 5. CosIQ Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Cosiq-Logo_in0cc3.jpg"
+                    alt="CosIQ Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 6. Serverbyt Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827457/Serverbyt-logo_g1etba.jpg"
+                    alt="Serverbyt Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 7. Sudhati Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Sudhati-Logo_isgosr.jpg"
+                    alt="Sudhati Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 8. Timex Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Timex-logo_o6td8k.jpg"
+                    alt="Timex Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 9. Bonkers Corner Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Bonker-Corner-Logo_aqtrpx.jpg"
+                    alt="Bonkers Corner Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 10. boAt Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Boat-logo_wchkyd.jpg"
+                    alt="boAt Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 11. All Man Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/All-Man-Logo_ja6zlf.jpg"
+                    alt="All Man Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+                {/* 12. Palmonas Logo */}
+                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
+                  <img
+                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Palmonas-logo_zeblny.jpg"
+                    alt="Palmonas Logo"
+                    className="max-h-12 max-w-full object-contain"
+                  />
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          {/* International Heading */}
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-12">
+            <h3 className="font-display font-black text-2xl sm:text-3xl lg:text-4xl text-[#303360] leading-tight tracking-tight">
+              INTERNATIONAL
+            </h3>
+          </div>
+
+          {/* International Logo Slider (placeholder tiles until real logos are provided) */}
+          <div className="w-full max-w-7xl mx-auto px-4 py-8 relative">
+            <div className="overflow-hidden">
+              <div className="flex gap-6 items-center justify-center overflow-x-auto scrollbar-none py-4">
+                {Array.from({ length: 6 }).map((_, idx) => (
+                  <div
+                    key={idx}
+                    className="w-40 h-20 bg-white border border-dashed border-gray-200 rounded-xl shadow-sm flex flex-col items-center justify-center gap-1 p-3 shrink-0 text-gray-300"
+                  >
+                    <Globe size={20} />
+                    <span className="text-[10px] font-mono font-semibold uppercase tracking-wide">Logo</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
       {/* 6. What Our Clients Say (Testimonials) */}
       <section className="py-24 bg-[#FFF1EC]/20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -859,32 +1078,66 @@ export function Home(props: HomeProps) {
                 {testimonialSlides.map((slide, slideIndex) => (
                   <div key={slideIndex} className="w-full shrink-0">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 px-1">
-                      {slide.map((test, i) => (
-                        <div
-                          key={i}
-                          className="bg-white p-8 rounded-2xl border border-gray-100 shadow-md flex flex-col justify-between hover:shadow-xl hover:border-[#FE7146]/10 transition-all duration-300 text-left"
-                        >
-                          <div className="space-y-6">
-                            {/* Quotes Icon */}
-                            <Quote size={28} className="text-[#FE7146] opacity-35" />
+                      {slide.map((test, i) => {
+                        const avatarColors = [
+                          "bg-[#303360]",
+                          "bg-[#FE7146]",
+                          "bg-indigo-600",
+                          "bg-emerald-600",
+                          "bg-rose-500",
+                          "bg-amber-600",
+                        ];
+                        const globalIndex = slideIndex * testimonialItemsPerView + i;
+                        const avatarColor = avatarColors[globalIndex % avatarColors.length];
+                        const initial = (test.company || test.author || "?").charAt(0).toUpperCase();
+
+                        return (
+                          <div
+                            key={i}
+                            className="relative bg-white p-8 pt-10 rounded-2xl border border-gray-100 shadow-md hover:shadow-xl hover:border-[#FE7146]/10 transition-all duration-300 text-center overflow-hidden"
+                          >
+                            {/* Decorative quote corner */}
+                            <div className="absolute top-0 right-0 w-20 h-20 bg-blue-600 rounded-bl-[3rem]">
+                              <Quote size={20} className="absolute top-3 right-3 text-white fill-white" />
+                            </div>
+
+                            {/* Company Avatar */}
+                            <div
+                              className={`relative w-16 h-16 rounded-full ${avatarColor} flex items-center justify-center mx-auto mb-4 font-display font-black text-white text-xl shadow-md overflow-hidden`}
+                            >
+                              <span>{initial}</span>
+                              {test.avatar && (
+                                <img
+                                  src={test.avatar}
+                                  alt={test.company}
+                                  className="absolute inset-0 w-full h-full object-cover rounded-full bg-white"
+                                  onError={(e) => {
+                                    (e.currentTarget as HTMLImageElement).style.display = "none";
+                                  }}
+                                />
+                              )}
+                            </div>
+
+                            {/* Name & Company */}
+                            <h4 className="font-display font-bold text-[#303360] text-base">
+                              {test.author || test.company}
+                            </h4>
+                            <p className="text-slate-400 text-sm mt-0.5">{test.company}</p>
+
+                            {/* Star Rating */}
+                            <div className="flex items-center justify-center gap-1 mt-3 mb-5">
+                              {Array.from({ length: 5 }).map((_, starIdx) => (
+                                <Star key={starIdx} size={16} className="fill-amber-400 text-amber-400" />
+                              ))}
+                            </div>
 
                             {/* Quote Body */}
-                            <p className="text-slate-600 text-sm leading-relaxed italic">
-                              "{test.quote}"
+                            <p className="text-slate-600 text-sm leading-relaxed">
+                              {test.quote}
                             </p>
                           </div>
-
-                          {/* Author Info */}
-                          <div className="flex items-center gap-4 pt-6 mt-6 border-t border-gray-50">
-                            <div>
-
-                              <p className="text-[15px] text-slate-500 font-medium">
-                                <strong className="text-[#333333] font-semibold">{test.company}</strong>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
+                        );
+                      })}
                     </div>
                   </div>
                 ))}
@@ -911,77 +1164,7 @@ export function Home(props: HomeProps) {
         </div>
       </section>
 
-      {/* 7. Latest Insights (Blog Preview) */}
-      {/* <section className="py-24 bg-white relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
-    
-          <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-            <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase font-mono block">
-              // LATEST INSIGHTS
-            </span>
-            <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[#303360] leading-tight tracking-tight">
-              Marketing Strategy Decoded
-            </h2>
-            <p className="text-[#333333]/70 text-base max-w-xl mx-auto font-normal">
-              Practical guides and actionable insights from our senior performance strategists.
-            </p>
-          </div>
-
-        
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {blogPosts.map((post, i) => (
-              <div
-                key={i}
-                className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between text-left"
-              >
-                <div>
-                  <div className="h-48 overflow-hidden relative">
-                    <img
-                      src={post.image}
-                      alt={post.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      referrerPolicy="no-referrer"
-                    />
-                    <span className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm text-[10px] font-bold font-mono text-[#303360] uppercase px-2.5 py-1 rounded-md shadow-sm border border-gray-100">
-                      {post.category}
-                    </span>
-                  </div>
-
-                  <div className="p-6 space-y-2">
-                    <span className="text-[10px] text-slate-400 font-mono font-medium block">
-                      {post.date}
-                    </span>
-                    <h3 className="font-display font-bold text-base text-[#303360] leading-snug group-hover:text-[#FE7146] transition-colors line-clamp-2">
-                      {post.title}
-                    </h3>
-                  </div>
-                </div>
-
-                <div className="px-6 pb-6 pt-2">
-                  <Link href="/blog"
-                    className="inline-flex items-center gap-1.5 text-xs font-extrabold text-[#FE7146] hover:gap-2.5 transition-all"
-                  >
-                    <span>Read More</span>
-                    <ArrowRight size={14} />
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          
-          <div className="text-center mt-12">
-            <Link href="/blog"
-              className="inline-flex items-center gap-2 text-sm font-extrabold text-[#303360] hover:text-[#FE7146] transition-colors"
-            >
-              <span>View All Articles</span>
-              <ArrowRight size={16} className="text-[#FE7146]" />
-            </Link>
-          </div>
-
-        </div>
-      </section> */}
+      
 
       {/* 8. CTA Banner (Shared global style component) */}
       <CtaBanner  />

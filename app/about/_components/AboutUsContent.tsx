@@ -222,7 +222,7 @@ export function AboutUs(props: AboutUsProps) {
     year: "Looking Ahead",
     icon: <TrendingUp className="w-5 h-5" />,
     title: "Looking Ahead",
-    description: "Our journey has always been driven by one belief—digital success comes from combining strategy, creativity, technology, and data with a relentless focus on results. From a five-member startup to a growing digital marketing company working with more than 120 brands, Analytics Clouds continues to evolve with the changing digital landscape. Today, we help businesses grow through performance marketing, SEO, website development, social media, content marketing, affiliate marketing, email marketing, and data-driven digital solutions. While we've come a long way since 2020, we believe the most exciting part of our story is still being written."
+    description: "Our journey has always been driven by one belief, digital success comes from combining strategy, creativity, technology, and data with a relentless focus on results. From a five-member startup to a growing digital marketing company working with more than 120 brands, Analytics Clouds continues to evolve with the changing digital landscape. Today, we help businesses grow through performance marketing, SEO, website development, social media, content marketing, affiliate marketing, email marketing, and data-driven digital solutions. While we've come a long way since 2020, we believe the most exciting part of our story is still being written."
   }
 ];
 
@@ -230,27 +230,27 @@ export function AboutUs(props: AboutUsProps) {
     {
       name: "Vineet Srivastava",
       role: "Founder & CEO ",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&h=500&q=80"
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831096/1_j4ebnn.png"
     },
     {
       name: "Deepika Arora",
       role: "Business Head",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&h=500&q=80"
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831096/5_ksgpqv.png"
     },
     {
       name: "Nameeta Srivastava",
       role: "Finance Manager",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&h=500&q=80"
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831102/3_iy2buc.png"
     },
     {
-      name: "Sagar",
+      name: "Sagar Kumar",
       role: "Delivery Head",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&h=500&q=80"
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831102/4_ph7dvc.png"
     },
     {
       name: "Harshita Tiwari",
       role: "Affiliate Marketing & Sales Manager",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&h=500&q=80"
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831101/2_qdaqxy.png"
     }
   ];
 
@@ -285,7 +285,7 @@ export function AboutUs(props: AboutUsProps) {
                 transition={{ duration: 0.5 }}
                 className="inline-block font-mono text-xs font-semibold text-[#FE7146] tracking-wider uppercase bg-[#FFF1EC]/10 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-[#FE7146]/30"
               >
-                // ABOUT US
+                ABOUT US
               </motion.div>
 
               {/* Display Headline */}
@@ -346,7 +346,7 @@ export function AboutUs(props: AboutUsProps) {
             {/* Left Column Content */}
             <div className="lg:col-span-6 text-left space-y-6 lg:sticky lg:top-32">
               <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase font-mono block">
-                // OUR STORY
+                OUR STORY
               </span>
               
               <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-white leading-tight tracking-tight">
@@ -453,7 +453,7 @@ export function AboutUs(props: AboutUsProps) {
           {/* Header */}
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
             <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase font-mono block">
-              // WHAT DRIVES US
+              WHAT DRIVES US
             </span>
             <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[#303360] leading-tight tracking-tight">
               Mission, Vision &amp; Values
@@ -533,7 +533,7 @@ export function AboutUs(props: AboutUsProps) {
           {/* Header */}
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
             <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase font-mono block">
-              // MEET THE TEAM
+              MEET THE TEAM
             </span>
             <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[#303360] leading-tight tracking-tight">
               The Minds Behind Your <span className="text-[#FE7146]">Growth</span>
@@ -552,7 +552,7 @@ export function AboutUs(props: AboutUsProps) {
                 transition={{ duration: 0.5, delay: i * 0.1 }}
               >
                 {/* Photo container */}
-                <div className="aspect-[4/5] w-full overflow-hidden bg-slate-50 relative">
+                <div className="aspect-[4/5] w-full h-full overflow-hidden bg-slate-50 relative">
                   <img
                     src={member.image}
                     alt={`${member.name} - ${member.role}`}

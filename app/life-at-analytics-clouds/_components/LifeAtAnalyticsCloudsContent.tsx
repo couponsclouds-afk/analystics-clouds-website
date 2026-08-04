@@ -375,7 +375,7 @@ export function LifeAtAnalyticsClouds() {
         {/* Absolute Background image with dark/orange filter overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://res.cloudinary.com/dqjlffxja/image/upload/v1783872294/life-at-analystic-cloud_lhcccf.jpg"
+            src="https://res.cloudinary.com/couponsbit/image/upload/v1785830516/life-at-analytics-clouds-hero_vhol82.png"
             alt="Analytics Clouds Noida Team"
             className="w-full h-full object-cover scale-[1.01]"
             referrerPolicy="no-referrer"
@@ -394,7 +394,7 @@ export function LifeAtAnalyticsClouds() {
             <div className="lg:col-span-8 space-y-6 sm:space-y-8">
               
               <div className="inline-flex items-center gap-2 bg-[#FFF1EC] border border-[#FE7146]/20 px-3.5 py-1.5 rounded-full shadow-sm">
-                <span className="w-2 h-2 rounded-full bg-[#FE7146] animate-pulse" />
+              
                 <span className="text-[11px] font-bold text-[#FE7146] tracking-widest uppercase">
                   LIFE AT ANALYTICS CLOUDS
                 </span>
