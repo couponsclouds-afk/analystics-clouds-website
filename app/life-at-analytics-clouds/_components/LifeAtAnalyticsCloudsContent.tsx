@@ -272,12 +272,22 @@ export function LifeAtAnalyticsClouds() {
       aspect: "col-span-1 h-[200px] md:h-[240px]"
     },
     {
+      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785838511/3_wflxph.png",
+      caption: "Reviewing performance marketing metrics together",
+      aspect: "col-span-1 h-[200px] md:h-[240px]"
+    },
+    {
+      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785838505/4_xvj50j.png",
+      caption: "Reviewing performance marketing metrics together",
+      aspect: "col-span-1 h-[200px] md:h-[240px]"
+    },
+    {
       src: "https://res.cloudinary.com/couponsbit/image/upload/v1785837742/1_ezdb4b.png",
       caption: "Relaxing and laughing in our DLF Noida breakroom",
       aspect: "col-span-1 h-[200px] md:h-[220px]"
     },
     {
-      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785837714/1_ojvc7z.png",
+      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785838454/1_jz5nzg.png",
       caption: "Ananya mapping out next month's organic SEO roadmap",
       aspect: "row-span-2 col-span-1 h-[300px] md:h-full"
     },
