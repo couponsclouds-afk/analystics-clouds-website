@@ -263,7 +263,7 @@ export function AboutUs(props: AboutUsProps) {
         {/* Full-bleed background workspace photograph */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://res.cloudinary.com/dqjlffxja/image/upload/v1783868072/about_us_imaghe_uwzdfc.jpg"
+            src="https://res.cloudinary.com/couponsbit/image/upload/v1785831631/why-choose-home_hdrqsj.png"
             alt="Analytics Clouds Noida Creative Strategy HQ"
             className="w-full h-full object-cover object-center scale-105 filter brightness-90"
             referrerPolicy="no-referrer"
@@ -604,7 +604,7 @@ export function AboutUs(props: AboutUsProps) {
             {/* Left side: second candid team photo */}
             <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[16/10] lg:aspect-auto h-[350px]">
               <img
-                src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=1200&q=80"
+                src="https://res.cloudinary.com/couponsbit/image/upload/v1785831734/unnamed_wsozuk.webp"
                 alt="Analytics Clouds company culture and team celebration"
                 className="absolute inset-0 w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500"
                 referrerPolicy="no-referrer"

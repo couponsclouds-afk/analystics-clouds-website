@@ -498,7 +498,7 @@ export function Home(props: HomeProps) {
         {/* Full-bleed background photograph */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://res.cloudinary.com/dqjlffxja/image/upload/v1783866909/firsrt-try_lpqjzv.jpg"
+            src="https://res.cloudinary.com/couponsbit/image/upload/v1785830052/Home_klceut.png"
             
             alt="Analytics Clouds Campaign Strategy Team"
             className="w-full h-full object-cover object-center scale-105 filter brightness-95"

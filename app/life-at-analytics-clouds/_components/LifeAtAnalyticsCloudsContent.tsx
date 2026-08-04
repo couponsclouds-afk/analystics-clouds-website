@@ -136,7 +136,7 @@ export function LifeAtAnalyticsClouds() {
       name: "Ananya Sen",
       role: "Performance Lead",
       tenure: "3 years at Analytics Clouds",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&h=200&q=80",
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831447/WhatsApp_Image_2026-07-09_at_4.36.26_PM_xo3zxi.jpg",
       quote: "Starting as a junior analyst, I was given absolute freedom to run budgets. In 3 years, I've scaled client ad spend by 10x and now lead a team of 5 talented specialists. The lack of micromanagement is real—if you show results, you own the channel and chart your own growth path."
     },
     {
@@ -257,7 +257,7 @@ export function LifeAtAnalyticsClouds() {
   // Gallery images for "A Day in the Life"
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=700&h=900&q=80",
+      src: "https://res.cloudinary.com/couponsbit/image/upload/v1785831447/WhatsApp_Image_2026-07-09_at_4.36.26_PM_xo3zxi.jpg",
       caption: "Spontaneous whiteboard session over campaign parameters",
       aspect: "row-span-2 col-span-1 h-[420px] md:h-full"
     },
@@ -555,17 +555,7 @@ export function LifeAtAnalyticsClouds() {
                   referrerPolicy="no-referrer"
                 />
                 
-                {/* Visual Glass gradient hover caption card */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#303360]/95 via-[#303360]/30 to-transparent flex items-end p-6 opacity-0 md:group-hover:opacity-100 md:group-hover:translate-y-0 translate-y-2 transition-all duration-300">
-                  <div className="space-y-1.5 text-left">
-                    <span className="inline-block text-[9px] font-black tracking-widest text-[#FE7146] uppercase bg-[#FFF1EC] px-2 py-0.5 rounded-md leading-none">
-                      Candid Moment
-                    </span>
-                    <p className="font-display font-bold text-white text-xs sm:text-sm leading-snug">
-                      {img.caption}
-                    </p>
-                  </div>
-                </div>
+               
 
                 {/* Mobile static caption band (always visible on small screens) */}
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 md:hidden text-left">
@@ -581,119 +571,7 @@ export function LifeAtAnalyticsClouds() {
         </div>
       </section>
 
-      {/* 4. Employee Voices - Candid Slider Testimonials */}
-      <section id="employee-voices" className="py-20 sm:py-28 bg-white overflow-hidden relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          
-          {/* Header */}
-          <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20 space-y-4">
-            <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase bg-[#FFF1EC] px-3.5 py-1.5 rounded-full">
-              IN THEIR WORDS
-            </span>
-            <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[#303360] tracking-tight leading-tight">
-              Employee <span className="text-[#FE7146]">Testimonials</span>
-            </h2>
-            <p className="text-gray-500 text-sm max-w-lg mx-auto">
-              Don't just take our word for it. Hear directly from our strategists, copywriters, and developers about why they thrive here.
-            </p>
-          </div>
-
-          {/* Carousel Frame */}
-          <div className="max-w-4xl mx-auto relative px-4">
-            
-            {/* Nav Arrows (Floating Left & Right) */}
-            <div className="absolute -left-2 sm:-left-12 top-1/2 -translate-y-1/2 z-20 flex flex-col gap-2">
-              <button
-                onClick={handlePrevTestimonial}
-                className="w-10 h-10 rounded-full bg-white border border-gray-100 hover:border-[#FE7146] hover:bg-[#FE7146] hover:text-white text-[#303360] shadow-md flex items-center justify-center transition-colors cursor-pointer"
-                aria-label="Previous Testimonial"
-              >
-                <ChevronLeft size={20} />
-              </button>
-            </div>
-
-            <div className="absolute -right-2 sm:-right-12 top-1/2 -translate-y-1/2 z-20 flex flex-col gap-2">
-              <button
-                onClick={handleNextTestimonial}
-                className="w-10 h-10 rounded-full bg-white border border-gray-100 hover:border-[#FE7146] hover:bg-[#FE7146] hover:text-white text-[#303360] shadow-md flex items-center justify-center transition-colors cursor-pointer"
-                aria-label="Next Testimonial"
-              >
-                <ChevronRight size={20} />
-              </button>
-            </div>
-
-            {/* Quote Card */}
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={activeTestimonial}
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.3 }}
-                className="bg-slate-50 border border-slate-100 rounded-3xl p-8 sm:p-12 relative text-left shadow-xs flex flex-col md:flex-row gap-8 items-start md:items-center"
-              >
-                {/* Big decorative quotes */}
-                <div className="absolute right-8 top-6 font-display text-8xl text-[#FE7146]/10 select-none font-black leading-none pointer-events-none">
-                  “
-                </div>
-
-                {/* Profile Image Column */}
-                <div className="shrink-0 relative">
-                  <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden border-2 border-white shadow-md relative z-10">
-                    <img
-                      src={testimonials[activeTestimonial].image}
-                      alt={testimonials[activeTestimonial].name}
-                      className="w-full h-full object-cover"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                  <div className="absolute -right-2 -bottom-2 w-7 h-7 rounded-lg bg-[#FE7146] text-white flex items-center justify-center shadow-md shadow-[#FE7146]/20 z-20">
-                    <MessageSquare size={14} className="fill-white" />
-                  </div>
-                </div>
-
-                {/* Copy Column */}
-                <div className="space-y-4 flex-grow">
-                  <p className="text-gray-700 text-sm sm:text-base font-medium leading-relaxed italic">
-                    "{testimonials[activeTestimonial].quote}"
-                  </p>
-                  
-                  <div className="pt-2 border-t border-gray-200/60 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                    <div>
-                      <h4 className="font-display font-black text-base text-[#303360]">
-                        {testimonials[activeTestimonial].name}
-                      </h4>
-                      <p className="text-[#FE7146] text-xs font-bold uppercase tracking-wider">
-                        {testimonials[activeTestimonial].role}
-                      </p>
-                    </div>
-                    <span className="inline-block text-[11px] font-semibold text-slate-500 bg-white border border-gray-100 px-3 py-1 rounded-full">
-                      {testimonials[activeTestimonial].tenure}
-                    </span>
-                  </div>
-                </div>
-
-              </motion.div>
-            </AnimatePresence>
-
-            {/* Slider Dots */}
-            <div className="flex justify-center gap-2 mt-8">
-              {testimonials.map((_, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => setActiveTestimonial(idx)}
-                  className={`h-2.5 rounded-full transition-all duration-300 ${
-                    idx === activeTestimonial ? "w-8 bg-[#FE7146]" : "w-2.5 bg-gray-200 hover:bg-gray-300"
-                  }`}
-                  aria-label={`Go to slide ${idx + 1}`}
-                />
-              ))}
-            </div>
-
-          </div>
-
-        </div>
-      </section>
+   
 
       {/* 5. Perks & Benefits - Grid of cards */}
       <section id="perks" className="py-20 sm:py-28 bg-[#F5F5FA] border-y border-gray-100 relative">
