@@ -728,7 +728,7 @@ export function Home(props: HomeProps) {
           {/* Left Column: Second Real Photograph with scrim */}
           <div className="lg:col-span-5 relative min-h-[350px] lg:min-h-full overflow-hidden">
             <img
-              src="https://res.cloudinary.com/couponsbit/image/upload/v1785836587/Untitled_design_26_kscged.png"
+              src="https://res.cloudinary.com/couponsbit/image/upload/v1785844578/Untitled_design_29_xf2ucb.png"
               alt="Analytics Clouds client and campaign team meeting"
               className="absolute inset-0 w-full h-full object-cover"
               referrerPolicy="no-referrer"

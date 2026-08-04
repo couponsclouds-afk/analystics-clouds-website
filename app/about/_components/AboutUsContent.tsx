@@ -185,7 +185,7 @@ export function AboutUs(props: AboutUsProps) {
     year: "2020",
     icon: <Sparkles className="w-5 h-5" />,
     title: "Where It All Began",
-    description: "Analytics Clouds was established in 2020 with a team of just five professionals specializing in affiliate marketing, Cost Per Lead (CPL) campaigns, and campaign delivery. Our journey started with our very first client, Keto. Delivering consistent results helped us build trust quickly, and before long, our portfolio expanded to 15 brands. Those early successes laid the foundation for the company we are today."
+    description: "Analytics Clouds was established in 2020 with a team of just five professionals specializing in affiliate marketing, Cost Per Lead (CPL) campaigns, and campaign delivery. Our journey started with our very first client, Ketto. Delivering consistent results helped us build trust quickly, and before long, our portfolio expanded to 15 brands. Those early successes laid the foundation for the company we are today."
   },
   {
     year: "2021",
@@ -197,7 +197,7 @@ export function AboutUs(props: AboutUsProps) {
     year: "2022",
     icon: <TrendingUp className="w-5 h-5" />,
     title: "Expanding Our Digital Ecosystem",
-    description: "Growth isn't just about acquiring more clients, it's about creating better solutions. In 2022, our team grew to 14 members while our client portfolio reached 26 brands. During this period, we launched Coupons Clouds, our first coupon platform designed to connect shoppers with trusted deals while helping brands increase sales through affiliate partnerships. We also expanded into Cost Per Sale (CPS) campaigns and partnered with brands such as Motilal Oswal, Religare, Wakefit, and Let'sShave, strengthening our expertise across multiple performance marketing models."
+    description: "Growth isn't just about acquiring more clients, it's about creating better solutions. In 2022, our team grew to 14 members while our client portfolio reached 26 brands. During this period, we launched Coupons Clouds, our first coupon platform designed to connect shoppers with trusted deals while helping brands increase sales through affiliate partnerships. We also expanded into Cost Per Sale (CPS) campaigns and partnered with brands such as Motilal Oswal, Religare, Wakefit, and Letsshave, strengthening our expertise across multiple performance marketing models."
   },
   {
     year: "2023",
@@ -229,35 +229,35 @@ export function AboutUs(props: AboutUsProps) {
     {
       name: "Vineet Srivastava",
       role: "Founder & CEO ",
-      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831096/1_j4ebnn.png",
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785844456/1_edgjsz.png",
       linkedin: "https://www.linkedin.com/in/vineet-srivastava-257561ab/",
       email: "vineet@analyticsclouds.com"
     },
     {
       name: "Deepika Arora",
       role: "Business Head",
-      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831096/5_ksgpqv.png",
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785844456/5_cihk6w.png",
       linkedin: "https://www.linkedin.com/in/deepika-arora-4b1021b7/",
       email: "deepika@analyticsclouds.com"
     },
     {
       name: "Namita Srivastava",
       role: "Finance Manager",
-      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831102/3_iy2buc.png",
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785844456/3_l4r6dp.png",
       linkedin: "https://www.linkedin.com/in/namita-srivastava-241b31215",
       email: "finance@analyticsclouds.com"
     },
     {
       name: "Sagar Kumar",
       role: "Delivery Head",
-      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831102/4_ph7dvc.png",
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785844456/4_wcyvua.png",
       linkedin: "https://www.linkedin.com/in/sagar-kumar-607476129/",
       email: "sagar@analyticsclouds.com"
     },
     {
       name: "Harshita Tiwari",
       role: "Affiliate Marketing & Sales Manager",
-      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785831101/2_qdaqxy.png",
+      image: "https://res.cloudinary.com/couponsbit/image/upload/v1785844456/2_gitogw.png",
       linkedin: "https://www.linkedin.com/in/harshita-tiwari-3458b6191/",
       email: "harshita.tiwari@analyticsclouds.com"
     }
