@@ -42,7 +42,7 @@ export function LifeAtAnalyticsClouds() {
   const openRoles = [
     {
       id: 5,
-      title: "Affiliate Marketing Specialist - CPS (Intl)",
+      title: "Affiliate Marketing Specialist - CPS (International)",
       department: "Affiliate Marketing",
       location: "Noida Sector 62 (Work from Office)",
       type: "Full-Time",
