@@ -261,7 +261,7 @@ export function Services(props: ServicesPageProps) {
               <div className="w-8 h-8 rounded-lg bg-indigo-50 flex items-center justify-center">
                 <Search className="w-4 h-4 text-indigo-600" />
               </div>
-              <span className="text-xs font-mono font-black text-[#303360]">SEO</span>
+              <span className="text-xm font-mono font-black text-[#303360]">SEO</span>
             </motion.div>
 
             {/* Performance Target icon floating right */}
@@ -273,7 +273,7 @@ export function Services(props: ServicesPageProps) {
               <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-xs">
                 <Target className="w-4 h-4 text-[#FE7146]" />
               </div>
-              <span className="text-xs font-mono font-black text-[#303360]">PAID</span>
+              <span className="text-xm font-mono font-black text-[#303360]">PAID</span>
             </motion.div>
 
             {/* Web Dev Code icon floating bottom left */}
@@ -285,7 +285,7 @@ export function Services(props: ServicesPageProps) {
               <div className="w-8 h-8 rounded-lg bg-[#FE7146]/10 flex items-center justify-center">
                 <Code2 className="w-4 h-4 text-[#FE7146]" />
               </div>
-              <span className="text-xs font-mono font-black text-[#303360]">WEB DEV</span>
+              <span className="text-xm font-mono font-black text-[#303360]">WEB DEV</span>
             </motion.div>
 
             {/* Social Share icon floating bottom right */}
@@ -297,7 +297,7 @@ export function Services(props: ServicesPageProps) {
               <div className="w-8 h-8 rounded-lg bg-sky-50 flex items-center justify-center">
                 <Share2 className="w-4 h-4 text-sky-500" />
               </div>
-              <span className="text-xs font-mono font-black text-[#303360]">SOCIAL</span>
+              <span className="text-xm font-mono font-black text-[#303360]">SOCIAL</span>
             </motion.div>
 
             
@@ -699,60 +699,60 @@ export function Services(props: ServicesPageProps) {
 
       {/* SECTION 7: COMPARE & CHOOSE (Guided Quiz Helper) */}
       <section className="py-24 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-14">
 
-          <div className="space-y-4">
+          <div className="space-y-5">
 
-            <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[#303360] tracking-tight">
+            <h2 className="font-display font-black text-4xl sm:text-5xl lg:text-6xl text-[#303360] tracking-tight">
               Not Sure Where To Start?
             </h2>
-            <p className="text-slate-500 text-base max-w-xl mx-auto leading-relaxed font-normal">
+            <p className="text-slate-500 text-lg max-w-2xl mx-auto leading-relaxed font-normal">
               Tell us your biggest challenge, and we'll recommend the right solution to help your business grow.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             <button
               onClick={() => handleQuizChoice("traffic")}
-              className="p-6 bg-slate-50 hover:bg-white rounded-2xl border border-gray-100 hover:border-[#FE7146]/30 hover:shadow-lg transition-all text-center flex flex-col items-center justify-center gap-3 cursor-pointer group"
+              className="p-10 bg-slate-50 hover:bg-white rounded-3xl border border-gray-100 hover:border-[#FE7146]/30 hover:shadow-xl transition-all text-center flex flex-col items-center justify-center gap-4 cursor-pointer group"
             >
-              <div className="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center group-hover:bg-[#FE7146] group-hover:text-white transition-all">
-                <Search className="w-5 h-5" />
+              <div className="w-16 h-16 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center group-hover:bg-[#FE7146] group-hover:text-white transition-all">
+                <Search className="w-7 h-7" />
               </div>
-              <span className="font-display font-black text-[#303360] text-sm group-hover:text-[#FE7146] transition-colors">
+              <span className="font-display font-black text-[#303360] text-lg group-hover:text-[#FE7146] transition-colors">
                 I need more traffic
               </span>
-              <p className="text-[11px] text-slate-400 font-normal leading-relaxed">
+              <p className="text-sm text-slate-400 font-normal leading-relaxed">
                 Boost your visibility with SEO and performance marketing.
               </p>
             </button>
 
             <button
               onClick={() => handleQuizChoice("leads")}
-              className="p-6 bg-slate-50 hover:bg-white rounded-2xl border border-gray-100 hover:border-[#FE7146]/30 hover:shadow-lg transition-all text-center flex flex-col items-center justify-center gap-3 cursor-pointer group"
+              className="p-10 bg-slate-50 hover:bg-white rounded-3xl border border-gray-100 hover:border-[#FE7146]/30 hover:shadow-xl transition-all text-center flex flex-col items-center justify-center gap-4 cursor-pointer group"
             >
-              <div className="w-10 h-10 rounded-xl bg-orange-50 text-[#FE7146] flex items-center justify-center group-hover:bg-[#FE7146] group-hover:text-white transition-all">
-                <Target className="w-5 h-5" />
+              <div className="w-16 h-16 rounded-2xl bg-orange-50 text-[#FE7146] flex items-center justify-center group-hover:bg-[#FE7146] group-hover:text-white transition-all">
+                <Target className="w-7 h-7" />
               </div>
-              <span className="font-display font-black text-[#303360] text-sm group-hover:text-[#FE7146] transition-colors">
+              <span className="font-display font-black text-[#303360] text-lg group-hover:text-[#FE7146] transition-colors">
                 I need more leads and sales
               </span>
-              <p className="text-[11px] text-slate-400 font-normal leading-relaxed">
+              <p className="text-sm text-slate-400 font-normal leading-relaxed">
                 Reach the right audience with high-performing ad campaigns.
               </p>
             </button>
 
             <button
               onClick={() => handleQuizChoice("website")}
-              className="p-6 bg-slate-50 hover:bg-white rounded-2xl border border-gray-100 hover:border-[#FE7146]/30 hover:shadow-lg transition-all text-center flex flex-col items-center justify-center gap-3 cursor-pointer group"
+              className="p-10 bg-slate-50 hover:bg-white rounded-3xl border border-gray-100 hover:border-[#FE7146]/30 hover:shadow-xl transition-all text-center flex flex-col items-center justify-center gap-4 cursor-pointer group"
             >
-              <div className="w-10 h-10 rounded-xl bg-[#FFF1EC] text-[#FE7146] flex items-center justify-center group-hover:bg-[#FE7146] group-hover:text-white transition-all">
-                <Code2 className="w-5 h-5" />
+              <div className="w-16 h-16 rounded-2xl bg-[#FFF1EC] text-[#FE7146] flex items-center justify-center group-hover:bg-[#FE7146] group-hover:text-white transition-all">
+                <Code2 className="w-7 h-7" />
               </div>
-              <span className="font-display font-black text-[#303360] text-sm group-hover:text-[#FE7146] transition-colors">
+              <span className="font-display font-black text-[#303360] text-lg group-hover:text-[#FE7146] transition-colors">
                 I need a new website
               </span>
-              <p className="text-[11px] text-slate-400 font-normal leading-relaxed">
+              <p className="text-sm text-slate-400 font-normal leading-relaxed">
                 Build a fast, modern website designed to convert visitors into customers.
               </p>
             </button>

@@ -501,14 +501,14 @@ export function WebDesignDevelopment(props: WebDesignDevelopmentProps) {
 
   const sliderProjects = {
     saas: {
-      before: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&h=500&q=80",
-      after: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&h=500&q=80",
+      before: "https://res.cloudinary.com/couponsbit/image/upload/v1785911024/1_nhagzp.png",
+      after: "https://res.cloudinary.com/couponsbit/image/upload/v1785911025/2_jrkkxl.png",
       beforeLabel: "LEGACY SAAS PORTAL (2023)",
       afterLabel: "ANALYTICS CLOUDS NEXT.JS BUILD"
     },
     ecomm: {
-      before: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&h=500&q=80",
-      after: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&h=500&q=80",
+      before: "https://res.cloudinary.com/couponsbit/image/upload/v1785911024/3_dghkva.png",
+      after: "https://res.cloudinary.com/couponsbit/image/upload/v1785911024/4_uecuyr.png",
       beforeLabel: "LEGACY STORE (SLOW COMPILATION)",
       afterLabel: "HIGH-CONVERTING FAST CHECOUT STORE"
     }

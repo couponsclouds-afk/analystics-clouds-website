@@ -458,6 +458,7 @@ export function Contact() {
                             <option value="Social Media Marketing">Social Media Marketing</option>
                             <option value="Web Design & Development">Web Design & Development</option>
                             <option value="Analytics & CRO">Analytics & Conversion Optimization</option>
+                            <option value="Affiliate Campaign">Affiliate Campaign</option>
                           </select>
                           <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

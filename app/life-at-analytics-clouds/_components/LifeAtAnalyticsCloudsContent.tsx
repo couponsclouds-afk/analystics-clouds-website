@@ -41,91 +41,86 @@ export function LifeAtAnalyticsClouds() {
   // Job openings list
   const openRoles = [
     {
-      id: 1,
-      title: "Senior SEO Strategist",
-      department: "SEO & Content Strategy",
-      location: "Noida Hub (Sector 62)",
-      type: "Full-Time",
-      experience: "3-5 Years",
-      salary: "₹8L - ₹14L per annum",
-      about: "We are seeking a seasoned SEO wizard who lives and breathes organic growth. You will take complete charge of SEO audits, keyword mapping, technical SEO, and link-building strategies for leading D2C and SaaS brands.",
-      requirements: [
-        "Proven track record of scaling organic traffic by 3x+ for clients.",
-        "Deep expertise in technical SEO, site speed audits, schema markup, and crawlability optimization.",
-        "Proficient in Semrush, Ahrefs, Screaming Frog, GSC, and Google Analytics.",
-        "Excellent communication and team leadership skills to mentor junior executives."
-      ],
-      responsibilities: [
-        "Formulate and execute end-to-end SEO blueprints for high-value client portfolios.",
-        "Conduct rigorous technical site audits and collaborate with dev teams for seamless implementation.",
-        "Monitor daily keyword tracking, CTR metrics, and organic conversion pipelines.",
-        "Lead monthly organic strategy reviews and performance presentations with clients."
-      ]
-    },
-    {
-      id: 2,
-      title: "Performance Marketing Specialist",
-      department: "Paid Media Strategy",
-      location: "Noida HQ / Hybrid",
-      type: "Full-Time",
-      experience: "2-4 Years",
-      salary: "₹6L - ₹10L per annum",
-      about: "Join our high-performing Paid Ads squad. We manage high-budget campaigns on Google Search, Performance Max, Meta, and LinkedIn. You will optimize campaigns with scientific rigor, looking at real-time dashboards to scale ROI.",
-      requirements: [
-        "Hands-on experience managing over ₹5L+ monthly ad spend with high ROAS.",
-        "Proficiency in Meta Ads Manager, Google Ads, Google Tag Manager, and custom pixels.",
-        "Strong analytical mindset with ability to spot trends in Excel and Google Sheets.",
-        "Experience with creative asset testing and copywriting high-converting ad copy."
-      ],
-      responsibilities: [
-        "Structure, deploy, and continuously optimize paid search and paid social campaigns.",
-        "Conduct rapid A/B testing on ad copies, visual creatives, and customized landing pages.",
-        "Set up advanced conversion tracking, attribution funnels, and UTM parameters.",
-        "Report daily performance metrics, focusing on CPL, CPA, CAC, and overall ROAS."
-      ]
-    },
-    {
-      id: 3,
-      title: "Social Media Content Creator",
-      department: "Creative & Branding",
-      location: "Jaipur Creative Center",
+      id: 5,
+      title: "Affiliate Marketing Specialist - CPS (Intl)",
+      department: "Affiliate Marketing",
+      location: "Noida Sector 62 (Work from Office)",
       type: "Full-Time",
       experience: "1-3 Years",
-      salary: "₹4L - ₹7L per annum",
-      about: "We are looking for a creative, energetic storyteller who knows what makes content go viral on Instagram Reels, YouTube Shorts, and LinkedIn. You will design, shoot, and script content that highlights brand personality.",
+      salary: "Not Disclosed",
+      about: "We are looking for a detail-oriented and performance-driven Affiliate Marketing-CPS (Intl) to manage and optimize Cost Per Sale (CPS) affiliate campaigns across global markets. The ideal candidate should have hands-on experience with leading affiliate networks, campaign execution, publisher management, and performance optimization.",
       requirements: [
-        "A stunning creative portfolio of video edits, posts, or personal content channels.",
-        "Proficiency in CapCut, Premiere Pro, Canva, or Figma.",
-        "Deep understanding of current social trends, soundbites, and algorithm behaviors.",
-        "Confidence in front of the camera and an engaging verbal tone."
+        "1–3 years of experience in Affiliate Marketing or International CPS Campaign Delivery.",
+        "Hands-on experience with affiliate networks such as Awin, CJ Affiliate, Rakuten Advertising, Admitad, Impact.com, ShareASale, Offer18, and MaxBounty.",
+        "Strong understanding of CPS, CPA, CPL, and performance marketing models.",
+        "Experience in publisher management and campaign optimization.",
+        "Excellent analytical, communication, and negotiation skills.",
+        "Proficiency in MS Excel and reporting tools.",
+        "Ability to work in a target-driven and fast-paced environment."
       ],
       responsibilities: [
-        "Ideate, storyboard, and script 10-15 short-form video assets weekly.",
-        "Shoot high-quality content inside our creative spaces and edit with engaging visuals.",
-        "Manage social communities, engage with comments, and draft witty captions.",
-        "Collaborate with the paid ads squad to design fresh performance creative concepts."
+        "Manage end-to-end delivery of international CPS affiliate campaigns.",
+        "Launch, monitor, and optimize campaigns to achieve revenue and performance targets.",
+        "Coordinate with internal sales and account management teams to ensure smooth campaign execution.",
+        "Ensure timely campaign setup, tracking, and reporting.",
+        "Manage advertiser and publisher relationships across multiple affiliate networks (Awin, CJ Affiliate, Rakuten Advertising, Admitad, Impact.com, ShareASale, Offer18, MaxBounty).",
+        "Identify, onboard, negotiate payouts, and maintain relationships with high-performing publishers.",
+        "Analyze campaign metrics including clicks, conversions, EPC, CR, ROI, and revenue.",
+        "Prepare daily, weekly, and monthly performance reports and troubleshoot tracking issues."
       ]
     },
     {
-      id: 4,
-      title: "Frontend UI/UX Developer",
-      department: "Product & Engineering",
-      location: "Noida Hub",
+      id: 6,
+      title: "International Ad Sales Executive",
+      department: "International Ad Sales",
+      location: "Noida (Work from Office)",
       type: "Full-Time",
-      experience: "2-3 Years",
-      salary: "₹7L - ₹12L per annum",
-      about: "We build gorgeous, high-performance websites and interactive marketing funnels. You will turn UI mockups into pristine, responsive React/Tailwind web apps with buttery-smooth animations.",
+      experience: "1-3 Years",
+      salary: "Not Disclosed",
+      about: "We are looking for a dynamic and result-oriented International Ad Sales Executive/Sr.Executive/Manager with experience in affiliate marketing and international performance advertising. The ideal candidate should have hands-on experience managing and scaling campaigns across leading affiliate networks while building strong relationships with advertisers and publishers.",
       requirements: [
-        "Expert knowledge of React, TypeScript, Tailwind CSS, and bundlers like Vite.",
-        "Familiarity with animation libraries such as Motion (Framer Motion).",
-        "Stellar attention to detail—you care about typography, micro-interactions, and perfect alignment.",
-        "Solid understanding of web performance optimization (Core Web Vitals)."
+        "1–3 years of experience in International Ad Sales or Affiliate Marketing.",
+        "Hands-on experience with affiliate platforms such as Awin, CJ Affiliate, Rakuten Advertising, Offer18, Admitad, MaxBounty, Impact.com, and ShareASale.",
+        "Strong understanding of CPA, CPL, CPS, CPI, and performance marketing models.",
+        "Excellent communication, negotiation, and relationship management skills.",
+        "Strong analytical mindset with experience in campaign performance optimization.",
+        "Ability to work in a fast-paced, target-driven environment."
       ],
       responsibilities: [
-        "Develop responsive and accessible web applications, landings, and client dashboards.",
-        "Implement stunning layout transitions and interactive UI details.",
-        "Optimize sites for maximum speed, accessibility, and search crawler indexability.",
-        "Work closely with our conversion rate optimization (CRO) leads to design fast A/B tests."
+        "Identify, acquire, and onboard new international advertisers and affiliate partners.",
+        "Develop and maintain strong relationships with advertisers, agencies, and affiliate networks.",
+        "Negotiate commercial terms, payouts, and campaign agreements to maximize revenue.",
+        "Drive business growth by achieving monthly and quarterly sales targets.",
+        "Manage and optimize campaigns across leading affiliate networks (Awin, CJ, Rakuten, Offer18, Admitad, MaxBounty, Impact.com, ShareASale, ClickBank).",
+        "Launch, monitor, and optimize CPA, CPL, CPS, and CPI campaigns.",
+        "Track campaign performance, analyze metrics, optimize conversions, ROI, and revenue."
+      ]
+    },
+    {
+      id: 7,
+      title: "HR Executive",
+      department: "Human Resources",
+      location: "Noida (Work from Office)",
+      type: "Full-Time",
+      experience: "1-2 Years",
+      salary: "Not Disclosed",
+      about: "We are looking for a motivated and detail-oriented HR Executive to manage recruitment and day-to-day HR operations. The ideal candidate should have hands-on experience in end-to-end recruitment, employee onboarding, HR administration, and employee engagement while ensuring smooth HR processes across the organization.",
+      requirements: [
+        "Hands-on experience in end-to-end recruitment and HR operations.",
+        "Good understanding of onboarding, payroll coordination, and HR documentation.",
+        "Strong communication, interpersonal, and coordination skills.",
+        "Proficiency in MS Office, especially Excel and Word.",
+        "Good organizational and time management skills.",
+        "Ability to maintain confidentiality and handle employee information professionally."
+      ],
+      responsibilities: [
+        "Manage end-to-end recruitment for technical and non-technical roles across multiple channels.",
+        "Screen resumes, conduct HR interviews, coordinate schedules, and manage offer rollouts.",
+        "Handle employee onboarding, documentation, exit formalities, and issue HR letters.",
+        "Maintain employee records, HR databases, attendance, and leave records with accuracy.",
+        "Coordinate monthly payroll inputs and assist in maintaining statutory compliance (PF, ESIC).",
+        "Organize employee engagement activities, celebrations, and team-building initiatives.",
+        "Support day-to-day HR and administrative activities across departments."
       ]
     }
   ];
@@ -305,6 +300,7 @@ export function LifeAtAnalyticsClouds() {
   const [selectedRole, setSelectedRole] = useState("General Application");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState("");
 
   // Form states
   const [applyForm, setApplyForm] = useState({
@@ -344,9 +340,10 @@ export function LifeAtAnalyticsClouds() {
     setSelectedRole(roleTitle);
     setIsModalOpen(true);
     setIsSubmitted(false);
+    setSubmitError("");
   };
 
-  const handleApplySubmit = (e: React.FormEvent) => {
+  const handleApplySubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setTouched({ name: true, email: true, phone: true });
 
@@ -355,10 +352,24 @@ export function LifeAtAnalyticsClouds() {
     }
 
     setIsSubmitting(true);
-    setTimeout(() => {
-      setIsSubmitting(false);
+    setSubmitError("");
+
+    try {
+      const res = await fetch("/api/apply", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ role: selectedRole, ...applyForm }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.success) {
+        throw new Error(data.error || "Something went wrong.");
+      }
       setIsSubmitted(true);
-    }, 1500);
+    } catch (err) {
+      setSubmitError("Failed to submit your application. Please try again or email us directly.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handlePrevTestimonial = () => {
@@ -645,143 +656,148 @@ export function LifeAtAnalyticsClouds() {
           </div>
 
           {/* Job List Accordion Container */}
-          <div className="space-y-4 text-left">
-            {openRoles.map((role) => {
-              const isExpanded = expandedRole === role.id;
-              return (
-                <div
-                  key={role.id}
-                  className={`border rounded-2xl transition-all duration-300 overflow-hidden bg-white ${
-                    isExpanded
-                      ? "border-[#FE7146] shadow-md shadow-[#FE7146]/5"
-                      : "border-gray-200/80 hover:border-gray-300 shadow-xs"
-                  }`}
-                >
+          {/* Job List Accordion Container */}
+<div className="space-y-4 text-left">
+  {openRoles.map((role) => {
+    const isExpanded = expandedRole === role.id;
+    return (
+      <div
+        key={role.id}
+        className={`border rounded-2xl transition-all duration-300 overflow-hidden bg-white ${
+          isExpanded
+            ? "border-[#FE7146] shadow-md shadow-[#FE7146]/5"
+            : "border-gray-200/80 hover:border-gray-300 shadow-xs"
+        }`}
+      >
+        {/* Accordion Trigger Header */}
+        <button
+          onClick={() => setExpandedRole(isExpanded ? null : role.id)}
+          className="w-full px-6 py-5 sm:py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-left cursor-pointer"
+        >
+          <div className="space-y-1.5 flex-grow">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-[10px] font-extrabold text-[#FE7146] bg-[#FFF1EC] px-2.5 py-0.5 rounded-md tracking-wider uppercase">
+                {role.department}
+              </span>
+              <span className="text-[10px] font-bold text-[#303360] bg-slate-100 px-2.5 py-0.5 rounded-md uppercase">
+                {role.type}
+              </span>
+            </div>
+            
+            <h3 className="font-display font-black text-lg sm:text-xl text-[#303360]">
+              {role.title}
+            </h3>
+            
+            {/* Location and Info row */}
+            <div className="flex flex-wrap items-center gap-y-1 gap-x-4 text-xs text-gray-500 font-medium">
+              <span className="flex items-center gap-1">
+                <MapPin size={13} className="text-gray-400" />
+                {role.location}
+              </span>
+              <span className="flex items-center gap-1">
+                <Clock size={13} className="text-gray-400" />
+                Exp: {role.experience}
+              </span>
+            </div>
+          </div>
+
+          {/* Expand indicator button */}
+          <div className="self-end sm:self-center shrink-0 w-8 h-8 rounded-full border border-gray-200 flex items-center justify-center text-slate-400 hover:text-[#FE7146] transition-colors bg-slate-50">
+            <ChevronDown
+              size={16}
+              className={`transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`}
+            />
+          </div>
+        </button>
+
+        {/* Accordion Expandable Content Panel */}
+        <AnimatePresence initial={false}>
+          {isExpanded && (
+            <motion.div
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "auto", opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="overflow-hidden border-t border-gray-100 bg-slate-50/40"
+            >
+              <div className="p-6 sm:p-8 space-y-6 text-sm">
+                
+                {/* Role Overview */}
+                <div className="space-y-2">
+                  <h4 className="font-display font-black text-[#303360] text-sm uppercase tracking-wider">
+                    Role Overview
+                  </h4>
+                  <p className="text-gray-600 leading-relaxed font-medium">
+                    {role.about}
+                  </p>
+                </div>
+
+                {/* 2-Column Responsibilities and Requirements */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 pt-2">
                   
-                  {/* Accordion Trigger Header */}
-                  <button
-                    onClick={() => setExpandedRole(isExpanded ? null : role.id)}
-                    className="w-full px-6 py-5 sm:py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-left cursor-pointer"
-                  >
-                    <div className="space-y-1.5 flex-grow">
-                      <div className="flex flex-wrap items-center gap-2">
-                        <span className="text-[10px] font-extrabold text-[#FE7146] bg-[#FFF1EC] px-2.5 py-0.5 rounded-md tracking-wider uppercase">
-                          {role.department}
-                        </span>
-                        <span className="text-[10px] font-bold text-[#303360] bg-slate-100 px-2.5 py-0.5 rounded-md uppercase">
-                          {role.type}
-                        </span>
-                      </div>
-                      
-                      <h3 className="font-display font-black text-lg sm:text-xl text-[#303360]">
-                        {role.title}
-                      </h3>
-                      
-                      {/* Location and Info row */}
-                      <div className="flex flex-wrap items-center gap-y-1 gap-x-4 text-xs text-gray-500 font-medium">
-                        <span className="flex items-center gap-1">
-                          <MapPin size={13} className="text-gray-400" />
-                          {role.location}
-                        </span>
-                        <span className="flex items-center gap-1">
-                          <Clock size={13} className="text-gray-400" />
-                          Exp: {role.experience}
-                        </span>
-                      </div>
+                  {/* Key Responsibilities */}
+                  {role.responsibilities && role.responsibilities.length > 0 && (
+                    <div className="space-y-3">
+                      <h4 className="font-display font-black text-[#303360] text-sm uppercase tracking-wider">
+                        Key Responsibilities
+                      </h4>
+                      <ul className="space-y-2.5">
+                        {role.responsibilities.map((res, i) => (
+                          <li key={i} className="flex gap-2 items-start text-gray-500 font-medium leading-normal">
+                            <span className="w-1.5 h-1.5 rounded-full bg-[#FE7146] shrink-0 mt-1.5" />
+                            <span>{res}</span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
+                  )}
 
-                    {/* Expand indicator button */}
-                    <div className="self-end sm:self-center shrink-0 w-8 h-8 rounded-full border border-gray-200 flex items-center justify-center text-slate-400 hover:text-[#FE7146] transition-colors bg-slate-50">
-                      <ChevronDown
-                        size={16}
-                        className={`transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`}
-                      />
+                  {/* Who You Are / Requirements */}
+                  {role.requirements && role.requirements.length > 0 && (
+                    <div className="space-y-3">
+                      <h4 className="font-display font-black text-[#303360] text-sm uppercase tracking-wider">
+                        Who You Are
+                      </h4>
+                      <ul className="space-y-2.5">
+                        {role.requirements.map((req, i) => (
+                          <li key={i} className="flex gap-2 items-start text-gray-500 font-medium leading-normal">
+                            <span className="w-1.5 h-1.5 rounded-full bg-[#FE7146] shrink-0 mt-1.5" />
+                            <span>{req}</span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
-
-                  </button>
-
-                  {/* Accordion Expandable Content Panel */}
-                  <AnimatePresence initial={false}>
-                    {isExpanded && (
-                      <motion.div
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: "auto", opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.3 }}
-                        className="overflow-hidden border-t border-gray-100 bg-slate-50/40"
-                      >
-                        <div className="p-6 sm:p-8 space-y-6 text-sm">
-                          
-                          {/* Role Overview */}
-                          <div className="space-y-2">
-                            <h4 className="font-display font-black text-[#303360] text-sm uppercase tracking-wider">
-                              Role Overview
-                            </h4>
-                            <p className="text-gray-600 leading-relaxed font-medium">
-                              {role.about}
-                            </p>
-                          </div>
-
-                          {/* 2-Column Responsibilities and Requirements */}
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 pt-2">
-                            
-                            {/* Key Responsibilities */}
-                            <div className="space-y-3">
-                              <h4 className="font-display font-black text-[#303360] text-sm uppercase tracking-wider">
-                                Key Responsibilities
-                              </h4>
-                              <ul className="space-y-2.5">
-                                {role.responsibilities.map((res, i) => (
-                                  <li key={i} className="flex gap-2 items-start text-gray-500 font-medium leading-normal">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-[#FE7146] shrink-0 mt-1.5" />
-                                    <span>{res}</span>
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-
-                            {/* Who You Are / Requirements */}
-                            <div className="space-y-3">
-                              <h4 className="font-display font-black text-[#303360] text-sm uppercase tracking-wider">
-                                Who You Are
-                              </h4>
-                              <ul className="space-y-2.5">
-                                {role.requirements.map((req, i) => (
-                                  <li key={i} className="flex gap-2 items-start text-gray-500 font-medium leading-normal">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-[#FE7146] shrink-0 mt-1.5" />
-                                    <span>{req}</span>
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-
-                          </div>
-
-                          {/* Footer details & CTA inside accordion */}
-                          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pt-6 border-t border-gray-100 text-xs">
-                            <div className="space-y-1">
-                              <span className="text-gray-400 font-medium block">ESTIMATED COMPENSATION</span>
-                              <span className="font-bold text-[#303360] text-sm">{role.salary}</span>
-                            </div>
-                            
-                            <button
-                              onClick={() => openApplyModal(role.title)}
-                              className="bg-[#FE7146] hover:bg-[#e0562b] text-white font-black text-xs px-6 py-3.5 rounded-xl transition-all shadow-sm shadow-[#FE7146]/20 cursor-pointer flex items-center gap-1.5"
-                            >
-                              <span>Apply Instantly</span>
-                              <ArrowRight size={14} />
-                            </button>
-                          </div>
-
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
+                  )}
 
                 </div>
-              );
-            })}
-          </div>
+
+                {/* Footer details & CTA inside accordion */}
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pt-6 border-t border-gray-100 text-xs">
+                  <div className="space-y-1">
+                    <span className="text-gray-400 font-medium block">ESTIMATED COMPENSATION</span>
+                    <span className="font-bold text-[#303360] text-sm">
+                      {role.salary || "As per industry standards"}
+                    </span>
+                  </div>
+                  
+                  <button
+                    onClick={() => openApplyModal(role.title)}
+                    className="bg-[#FE7146] hover:bg-[#e0562b] text-white font-black text-xs px-6 py-3.5 rounded-xl transition-all shadow-sm shadow-[#FE7146]/20 cursor-pointer flex items-center gap-1.5"
+                  >
+                    <span>Apply Instantly</span>
+                    <ArrowRight size={14} />
+                  </button>
+                </div>
+
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+      </div>
+    );
+  })}
+</div>
 
           {/* General Application Callbox */}
           <div className="mt-12 bg-[#FFF1EC]/50 border border-[#FE7146]/10 p-6 sm:p-8 rounded-3xl flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6 text-left">
@@ -1090,6 +1106,12 @@ export function LifeAtAnalyticsClouds() {
                           className="w-full bg-slate-50 border border-gray-200 rounded-xl py-3 px-4 text-xs font-semibold focus:outline-none focus:bg-white focus:border-[#FE7146] focus:ring-2 focus:ring-[#FE7146]/10 transition-all resize-none"
                         />
                       </div>
+
+                      {submitError && (
+                        <p className="text-xs text-red-600 font-medium text-center bg-red-50 border border-red-100 rounded-xl py-2.5 px-4">
+                          {submitError}
+                        </p>
+                      )}
 
                       {/* Submit Application Button */}
                       <button

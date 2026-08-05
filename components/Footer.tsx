@@ -14,7 +14,6 @@ import {
   Facebook,
   Linkedin,
   Instagram,
-  Youtube,
   Mail,
   Phone,
   MapPin,
@@ -165,18 +164,20 @@ export function Footer() {
                 </h5>
                 <div className="flex gap-2.5 pt-1">
                   {[
-                    { icon: <Facebook size={14} />, color: "bg-[#1877F2]/10 hover:bg-[#1877F2] text-[#1877F2] hover:text-white" },
-                    { icon: <Linkedin size={14} />, color: "bg-[#0A66C2]/10 hover:bg-[#0A66C2] text-[#0A66C2] hover:text-white" },
-                    { icon: <Instagram size={14} />, color: "bg-[#E4405F]/10 hover:bg-[#E4405F] text-[#E4405F] hover:text-white" },
-                    { icon: <Youtube size={14} />, color: "bg-[#FF0000]/10 hover:bg-[#FF0000] text-[#FF0000] hover:text-white" },
-                    { icon: <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>, color: "bg-white/5 hover:bg-white text-gray-300 hover:text-black" }
+                    { icon: <Facebook size={14} />, href: "https://www.facebook.com/AnalyticsClouds/", label: "Facebook", color: "bg-[#1877F2]/10 hover:bg-[#1877F2] text-[#1877F2] hover:text-white" },
+                    { icon: <Linkedin size={14} />, href: "https://www.linkedin.com/company/54371735/admin/page-posts/published/", label: "LinkedIn", color: "bg-[#0A66C2]/10 hover:bg-[#0A66C2] text-[#0A66C2] hover:text-white" },
+                    { icon: <Instagram size={14} />, href: "https://www.instagram.com/analytics_clouds/", label: "Instagram", color: "bg-[#E4405F]/10 hover:bg-[#E4405F] text-[#E4405F] hover:text-white" }
                   ].map((soc, idx) => (
-                    <button
+                    <a
                       key={idx}
+                      href={soc.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={soc.label}
                       className={`w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-[1.1] hover:shadow-lg cursor-pointer ${soc.color}`}
                     >
                       {soc.icon}
-                    </button>
+                    </a>
                   ))}
                 </div>
               </div>
@@ -270,17 +271,24 @@ export function Footer() {
                 { label: "Services", path: "/services" },
                 { label: "Life at Analytics Clouds", path: "/life-at-analytics-clouds" },
                 { label: "Inventory", path: "/inventory" },
-                { label: "Contact Us", path: "/contact" }
-              ].map((link, idx) => (
-                <li key={idx} className="border-b border-white/[0.02] last:border-0 pb-1.5 last:pb-0">
-                  <Link href={link.path}
-                    className="group flex items-center justify-between hover:text-[#FE7146] transition-colors py-1 cursor-pointer"
-                  >
-                    <span>{link.label}</span>
-                    <ChevronRight size={14} className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-[#FE7146]" />
-                  </Link>
-                </li>
-              ))}
+                { label: "Contact Us", path: "/contact" },
+                { label: "Sign up as Publisher", path: "https://analytics.trackier.io/register.html" },
+                { label: "Sign up as Advertiser", path: "https://analytics.trackier.io/advertiser/register.html" }
+              ].map((link, idx) => {
+                const isExternal = link.path.startsWith("http");
+                return (
+                  <li key={idx} className="border-b border-white/[0.02] last:border-0 pb-1.5 last:pb-0">
+                    <Link href={link.path}
+                      target={isExternal ? "_blank" : undefined}
+                      rel={isExternal ? "noopener noreferrer" : undefined}
+                      className="group flex items-center justify-between hover:text-[#FE7146] transition-colors py-1 cursor-pointer"
+                    >
+                      <span>{link.label}</span>
+                      <ChevronRight size={14} className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-[#FE7146]" />
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 

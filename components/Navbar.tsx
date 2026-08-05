@@ -455,19 +455,37 @@ export function Navbar(props: NavbarProps) {
               />
             </Link>
 
-            {/* Contact link */}
-            <Link href="/contact"
-              className={`relative py-2 text-[13px] font-bold tracking-wide uppercase transition-colors group ${
-                location === "/contact" ? "text-[#FE7146]" : "text-white/90 hover:text-[#FE7146]"
-              }`}
-            >
-              <span>Contact</span>
-              <span
-                className={`absolute bottom-0 left-0 w-full h-0.5 bg-[#FE7146] transition-transform duration-200 ${
-                  location === "/contact" ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
-                } origin-center`}
-              />
-            </Link>
+            {/* Sign Up dropdown (Publisher / Advertiser) */}
+            <div className="relative py-2 group">
+              <button
+                type="button"
+                className="text-[13px] font-bold tracking-wide uppercase transition-colors flex items-center gap-1.5 text-white/90 hover:text-[#FE7146] cursor-pointer"
+              >
+                <span>Sign Up</span>
+                <ChevronDown size={14} className="text-white/50 transition-transform duration-200 group-hover:rotate-180" />
+              </button>
+
+              <div className="absolute left-0 top-full w-56 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                <div className="bg-white rounded-2xl shadow-2xl border border-gray-100/50 overflow-hidden text-left">
+                  <a
+                    href="https://analytics.trackier.io/register.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-5 py-3.5 text-xs font-bold text-[#303360] hover:bg-slate-50 hover:text-[#FE7146] transition-colors"
+                  >
+                    Sign up as Publisher
+                  </a>
+                  <a
+                    href="https://analytics.trackier.io/advertiser/register.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-5 py-3.5 text-xs font-bold text-[#303360] hover:bg-slate-50 hover:text-[#FE7146] transition-colors border-t border-gray-50"
+                  >
+                    Sign up as Advertiser
+                  </a>
+                </div>
+              </div>
+            </div>
 
           </nav>
 
@@ -569,14 +587,25 @@ export function Navbar(props: NavbarProps) {
                 Inventory
               </Link>
 
-              {/* Contact */}
-              <Link href="/contact"
-                className={`block w-full px-4 py-3 rounded-xl text-xs font-black tracking-wider uppercase transition-colors ${
-                  location === "/contact" ? "text-[#FE7146] bg-[#FFF1EC]" : "text-[#303360] hover:bg-gray-50"
-                }`}
+              {/* Sign Up as Publisher */}
+              <a
+                href="https://analytics.trackier.io/register.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full px-4 py-3 rounded-xl text-xs font-black tracking-wider uppercase transition-colors text-[#303360] hover:bg-gray-50"
               >
-                Contact
-              </Link>
+                Sign up as Publisher
+              </a>
+
+              {/* Sign Up as Advertiser */}
+              <a
+                href="https://analytics.trackier.io/advertiser/register.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full px-4 py-3 rounded-xl text-xs font-black tracking-wider uppercase transition-colors text-[#303360] hover:bg-gray-50"
+              >
+                Sign up as Advertiser
+              </a>
 
               {/* Get In Touch Full-Width Button */}
               <div className="pt-3">

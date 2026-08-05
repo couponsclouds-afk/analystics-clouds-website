@@ -233,18 +233,6 @@ export function Home(props: HomeProps) {
     }
   ];
 
-  // Client industry badges marquee
-  const industries = [
-    "Healthcare",
-    "EdTech",
-    "E-commerce",
-    "SaaS",
-    "Real Estate",
-    "B2B Services",
-    "FinTech",
-    "Logistics"
-  ];
-
   // Why Choose Us differentiators
   const differentiators = [
     {
@@ -490,6 +478,50 @@ export function Home(props: HomeProps) {
     }
   ];
 
+  // Partner logos
+  const partnerLogos = [
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827894/89-300x75_kif3nk.webp" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827894/115-300x75_kj3brk.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827893/145-300x75_ygdhvv.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827893/134-300x75_n19bsk.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827893/97-300x75_qbmx7i.png" },
+    { name: "FirstCry", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827892/First-Cry-logo-300x75_rqbalo.jpg" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827892/122-300x75_altlif.png" },
+    { name: "Pilolo", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827457/pilolo-Logo_yojbcw.jpg" },
+    { name: "GoEye", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827457/goeye-Logo_ftqqzo.jpg" },
+    { name: "Ustraa", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827457/Ustraa-Logo_wtilya.jpg" },
+    { name: "Blur", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827457/blur-logo_u9yweb.jpg" },
+    { name: "CosIQ", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Cosiq-Logo_in0cc3.jpg" },
+    { name: "Serverbyt", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827457/Serverbyt-logo_g1etba.jpg" },
+    { name: "Sudhati", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Sudhati-Logo_isgosr.jpg" },
+    { name: "Timex", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Timex-logo_o6td8k.jpg" },
+    { name: "Bonkers Corner", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Bonker-Corner-Logo_aqtrpx.jpg" },
+    { name: "boAt", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Boat-logo_wchkyd.jpg" },
+    { name: "All Man", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827456/All-Man-Logo_ja6zlf.jpg" },
+    { name: "Palmonas", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Palmonas-logo_zeblny.jpg" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785915814/Salty-logo-300x75_ytewma_5_sn5osd.webp" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785915813/Salty-logo-300x75_ytewma_4_zkkcc3.webp" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785915812/Salty-logo-300x75_ytewma_cneuxf.webp" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785915813/Salty-logo-300x75_ytewma_2_tvlhsc.webp" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785915813/Salty-logo-300x75_ytewma_3_wggvpn.webp" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785915813/Salty-logo-300x75_ytewma_1_aqw2g5.webp" },
+    { name: "HelloIce", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785915812/helloice-logo_v66tox.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785916113/Salty-logo-300x75_ytewma_10_zbt5pi.webp" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785916113/Salty-logo-300x75_ytewma_9_ahfian.webp" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785916113/Salty-logo-300x75_ytewma_8_wt6nah.webp" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785916113/Salty-logo-300x75_ytewma_7_q89o23.webp" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785916112/Salty-logo-300x75_ytewma_11_zih8s9.webp" },
+    { name: "Shein UK", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828109/shein-UK-logo-300x75_i2kb5u.png" },
+    { name: "Morrison", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828108/morrisson-logo-300x75_s2hpou.png" },
+    { name: "Malaysia Airlines", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828108/Malaysia-Airlines-Logo-300x75_j2cl06.png" },
+    { name: "Klook", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828108/Klook-logo-300x75_iofetv.png" },
+    { name: "ITA Airways", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828108/ITA-Airways-Logo-300x75_mgdjgl.png" },
+    { name: "Etihad", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828106/Etihad-logo-300x75_rjaepq.png" },
+    { name: "G2A", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828106/G2A-Logo-300x75_cczjrq.png" },
+    { name: "TourRadar", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828106/Tour-Raddar-logo-300x75_etbo2v.png" },
+    { name: "Tesco", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828105/Tesco-logo-300x75_gjzcua.png" },
+  ];
+
   return (
     <div className="bg-white overflow-hidden">
       {/* 1. Hero — Real, Full-Width Photography */}
@@ -497,7 +529,7 @@ export function Home(props: HomeProps) {
         {/* Full-bleed background photograph */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://res.cloudinary.com/couponsbit/image/upload/v1785832212/Untitled_design_24_bqoykn.png"
+            src="https://res.cloudinary.com/couponsbit/image/upload/v1785914619/1.8461_an7d5u.png"
             
             alt="Analytics Clouds Campaign Strategy Team"
             className="w-full h-full object-cover object-center scale-105 filter brightness-95"
@@ -574,39 +606,6 @@ export function Home(props: HomeProps) {
           </div>
         </div>
 
-        {/* Slow horizontal drifting marquee at the bottom fold */}
-        <div className="absolute bottom-0 left-0 right-0 bg-[#303360]/90 backdrop-blur-sm border-t border-white/5 py-4 overflow-hidden z-20">
-          <style>{`
-            @keyframes marquee {
-              0% { transform: translateX(0%); }
-              100% { transform: translateX(-50%); }
-            }
-            .animate-marquee {
-              animation: marquee 35s linear infinite;
-            }
-          `}</style>
-          
-          <div className="flex w-[200%] animate-marquee whitespace-nowrap hover:[animation-play-state:paused] cursor-pointer">
-            <div className="flex gap-16 justify-around items-center w-1/2">
-              {industries.map((ind, i) => (
-                <div key={i} className="flex items-center gap-3 text-white/70 font-display font-medium text-sm">
-                  <span className="text-[#FE7146] font-bold">//</span>
-                  <span>{ind} Solutions</span>
-                  <span className="w-1.5 h-1.5 rounded-full bg-white/20" />
-                </div>
-              ))}
-            </div>
-            <div className="flex gap-16 justify-around items-center w-1/2">
-              {industries.map((ind, i) => (
-                <div key={`dup-${i}`} className="flex items-center gap-3 text-white/70 font-display font-medium text-sm">
-                  <span className="text-[#FE7146] font-bold">//</span>
-                  <span>{ind} Solutions</span>
-                  <span className="w-1.5 h-1.5 rounded-full bg-white/20" />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* 2. The Craft Statement (editorial breather section) */}
@@ -728,7 +727,7 @@ export function Home(props: HomeProps) {
           {/* Left Column: Second Real Photograph with scrim */}
           <div className="lg:col-span-5 relative min-h-[350px] lg:min-h-full overflow-hidden">
             <img
-              src="https://res.cloudinary.com/couponsbit/image/upload/v1785844578/Untitled_design_29_xf2ucb.png"
+              src="https://res.cloudinary.com/couponsbit/image/upload/v1785918064/Untitled_design_33_thqqzd.png"
               alt="Analytics Clouds client and campaign team meeting"
               className="absolute inset-0 w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -883,460 +882,22 @@ export function Home(props: HomeProps) {
           
     
           <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-            <span className="text-xs font-bold text-[#FE7146] tracking-widest uppercase font-mono block">
-              // LATEST INSIGHTS
-            </span>
             <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-[#303360] leading-tight tracking-tight">
               PROUD TO PARTNER WITH
             </h2>
-            <p className="text-[#333333]/70 text-base max-w-xl mx-auto font-normal">
-              Practical guides and actionable insights from our senior performance strategists.
-            </p>
           </div>
 
- <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="font-display font-black text-2xl sm:text-3xl lg:text-4xl text-[#FE7146] leading-tight tracking-tight">
-              DOMESTIC
-            </h3>
-            </div>
-
-          {/* Simple Brand Logo Slider */}
-          <div className="w-full max-w-7xl mx-auto px-4 py-8 relative">
-            {/* Outer Container with Overflow Hidden */}
-            <div className="overflow-hidden">
-              <div className="flex gap-6 items-center justify-start overflow-x-auto scrollbar-none py-4">
-
-                {/* 1. Flower Aura Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827899/Flower-Aura-logo-300x75_hnykcx.jpg"
-                    alt="Flower Aura Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 2. Rangriti Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827899/Rangriti-logos-300x75_myndtf.jpg"
-                    alt="Rangriti Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 3. Salty Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827899/Salty-logo-300x75_ytewma.png"
-                    alt="Salty Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 4. True Elements Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827897/True-Elements-logo-300x75_vcaxxc.png"
-                    alt="True Elements Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 5. Fig Living Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827897/Fig-Living-logo-300x75_mdreez.png"
-                    alt="Fig Living Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 6. Soulflower Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827897/Soulflower-logo-300x75_ip2dgh.png"
-                    alt="Soulflower Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 7. Cookd Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827897/Cookd-logo-300x75_debsox.jpg"
-                    alt="Cookd Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 8. Brand Logo 67 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827896/67-300x75_zvdzlx.webp"
-                    alt="Brand Logo 67"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 9. Perfora Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827896/Perfora-logo-300x75_jd6nnw.jpg"
-                    alt="Perfora Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 10. Brand Logo 66 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827896/66-300x75_yk80y8.webp"
-                    alt="Brand Logo 66"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 11. Brand Logo 76 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827896/76-300x75_woji2i.webp"
-                    alt="Brand Logo 76"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 12. Brand Logo 77 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827895/77-300x75_gneymm.webp"
-                    alt="Brand Logo 77"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 13. Brand Logo 79 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827895/79-300x75_qglwti.webp"
-                    alt="Brand Logo 79"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 14. Brand Logo 80 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827895/80-300x75_fnthry.webp"
-                    alt="Brand Logo 80"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 15. Brand Logo 84 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827894/84-300x75_vqfo3l.webp"
-                    alt="Brand Logo 84"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 16. Brand Logo 89 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827894/89-300x75_kif3nk.webp"
-                    alt="Brand Logo 89"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 17. Brand Logo 115 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827894/115-300x75_kj3brk.png"
-                    alt="Brand Logo 115"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 18. Brand Logo 145 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827893/145-300x75_ygdhvv.png"
-                    alt="Brand Logo 145"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 19. Brand Logo 134 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827893/134-300x75_n19bsk.png"
-                    alt="Brand Logo 134"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 20. Brand Logo 97 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827893/97-300x75_qbmx7i.png"
-                    alt="Brand Logo 97"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 21. FirstCry Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827892/First-Cry-logo-300x75_rqbalo.jpg"
-                    alt="FirstCry Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 22. Brand Logo 122 */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827892/122-300x75_altlif.png"
-                    alt="Brand Logo 122"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 23. Pilgrim / Pilolo Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827457/pilolo-Logo_yojbcw.jpg"
-                    alt="Pilolo Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 24. GoEye Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827457/goeye-Logo_ftqqzo.jpg"
-                    alt="GoEye Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 25. Ustraa Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827457/Ustraa-Logo_wtilya.jpg"
-                    alt="Ustraa Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 26. Blur Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827457/blur-logo_u9yweb.jpg"
-                    alt="Blur Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 27. CosIQ Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Cosiq-Logo_in0cc3.jpg"
-                    alt="CosIQ Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 28. Serverbyt Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827457/Serverbyt-logo_g1etba.jpg"
-                    alt="Serverbyt Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 29. Sudhati Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Sudhati-Logo_isgosr.jpg"
-                    alt="Sudhati Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 30. Timex Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Timex-logo_o6td8k.jpg"
-                    alt="Timex Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 31. Bonkers Corner Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Bonker-Corner-Logo_aqtrpx.jpg"
-                    alt="Bonkers Corner Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 32. boAt Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Boat-logo_wchkyd.jpg"
-                    alt="boAt Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 33. All Man Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/All-Man-Logo_ja6zlf.jpg"
-                    alt="All Man Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 34. Palmonas Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827456/Palmonas-logo_zeblny.jpg"
-                    alt="Palmonas Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          {/* International Heading */}
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-12">
-            <h3 className="font-display font-black text-2xl sm:text-3xl lg:text-4xl text-[#FE7146] leading-tight tracking-tight">
-              INTERNATIONAL
-            </h3>
-          </div>
-
-          {/* International Logo Slider */}
-          <div className="w-full max-w-7xl mx-auto px-4 py-8 relative">
-            <div className="overflow-hidden">
-              <div className="flex gap-6 items-center justify-start overflow-x-auto scrollbar-none py-4">
-
-                {/* 1. Shein UK Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828109/shein-UK-logo-300x75_i2kb5u.png"
-                    alt="Shein UK Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 2. Morrison Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828108/morrisson-logo-300x75_s2hpou.png"
-                    alt="Morrison Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 3. Malaysia Airlines Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828108/Malaysia-Airlines-Logo-300x75_j2cl06.png"
-                    alt="Malaysia Airlines Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 4. Klook Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828108/Klook-logo-300x75_iofetv.png"
-                    alt="Klook Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 5. ITA Airways Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828108/ITA-Airways-Logo-300x75_mgdjgl.png"
-                    alt="ITA Airways Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 6. Gamivo Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828107/Gamivo-logo-300x75_x3wjsq.png"
-                    alt="Gamivo Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 7. Etihad Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828106/Etihad-logo-300x75_rjaepq.png"
-                    alt="Etihad Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 8. G2A Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828106/G2A-Logo-300x75_cczjrq.png"
-                    alt="G2A Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 9. TourRadar Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828106/Tour-Raddar-logo-300x75_etbo2v.png"
-                    alt="TourRadar Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 10. The Ayurveda Experience Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828105/The-Ayurveda-Experience-logo-300x75_h5ewx0.png"
-                    alt="The Ayurveda Experience Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 11. Tesco Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785828105/Tesco-logo-300x75_gjzcua.png"
-                    alt="Tesco Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-                {/* 12. Flower Aura Logo */}
-                <div className="w-40 h-20 bg-white border border-gray-100 rounded-xl shadow-sm flex items-center justify-center p-3 shrink-0">
-                  <img
-                    src="https://res.cloudinary.com/couponsbit/image/upload/v1785827899/Flower-Aura-logo-300x75_hnykcx.jpg"
-                    alt="Flower Aura Logo"
-                    className="max-h-12 max-w-full object-contain"
-                  />
-                </div>
-
-              </div>
+          {/* Partner Logo Grid */}
+          <div className="w-full max-w-7xl mx-auto px-4 py-10">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-8 gap-y-10 items-center justify-items-center">
+              {partnerLogos.map((logo, i) => (
+                <img
+                  key={i}
+                  src={logo.src}
+                  alt={logo.name}
+                  className="max-h-14 max-w-[170px] w-auto object-contain opacity-90 hover:opacity-100 transition-opacity"
+                />
+              ))}
             </div>
           </div>
 

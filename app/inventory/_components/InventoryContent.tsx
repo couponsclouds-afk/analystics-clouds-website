@@ -36,6 +36,7 @@ const cashbackInventories = [
     status: "ACTIVE OFFER",
     // Apni exact screenshot/image URL yahan daalein:
     image: "https://res.cloudinary.com/couponsbit/image/upload/v1785758795/couponsclouds-website_eysguh.webp",
+    desc: "A trusted coupon and cashback platform offering verified discount codes across top Indian brands. Drives high-intent traffic from deal-seekers actively looking to save on purchases.",
   },
   {
     name: "Couponsbit",
@@ -44,6 +45,7 @@ const cashbackInventories = [
     relevance: "Medium",
     status: "ACTIVE OFFER",
     image: "https://res.cloudinary.com/couponsbit/image/upload/v1785759379/couponsbit-website_hj8kkf.webp",
+    desc: "A fast-growing coupon aggregation platform curating live promo codes and deals for international shoppers, connecting brands with cost-conscious online buyers.",
   },
   {
     name: "Blogg4u",
@@ -52,6 +54,7 @@ const cashbackInventories = [
     relevance: "Medium",
     status: "ACTIVE OFFER",
     image: "https://res.cloudinary.com/couponsbit/image/upload/v1785759430/blog4u-image_guxzkg.webp",
+    desc: "A content and deals publishing platform blending shopping guides, brand roundups, and blog-style promotions to engage a highly-read Indian audience.",
   },
 ];
 
@@ -312,6 +315,12 @@ export function Inventory(props: InventoryProps) {
                 />
               </div>
             </div>
+
+            {item.desc && (
+              <p className="text-xs text-slate-500 leading-relaxed mt-3">
+                {item.desc}
+              </p>
+            )}
           </div>
         </motion.div>
       ))}
