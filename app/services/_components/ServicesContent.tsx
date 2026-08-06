@@ -242,7 +242,7 @@ export function Services(props: ServicesPageProps) {
     <div className="pt-24 bg-white selection:bg-[#FE7146] selection:text-white">
 
       {/* SECTION 1: HERO & Icon Constellation */}
-      <section className="relative min-h-[85vh] flex items-center justify-center py-20 overflow-hidden bg-white border-b border-gray-100">
+      <section className="relative md:min-h-[85vh] flex items-center justify-center py-20 overflow-hidden bg-white border-b border-gray-100">
 
         {/* Subtle grid background */}
         <div className="absolute inset-0 bg-[radial-gradient(#F5F5FA_1.5px,transparent_1.5px)] [background-size:24px_24px] opacity-70"></div>

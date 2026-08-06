@@ -615,7 +615,7 @@ export function AboutUs(props: AboutUsProps) {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             
             {/* Left side: second candid team photo */}
-            <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[16/10] lg:aspect-auto h-[350px]">
+            <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[16/10] lg:aspect-auto lg:h-[350px]">
               <img
                 src="https://res.cloudinary.com/couponsbit/image/upload/v1785831734/unnamed_wsozuk.webp"
                 alt="Analytics Clouds company culture and team celebration"

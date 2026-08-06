@@ -126,7 +126,7 @@ export function Contact() {
         {/* Full-bleed background team photograph */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://res.cloudinary.com/dqjlffxja/image/upload/v1783872960/contact-us-page_wbsfex.jpg"
+            src="https://res.cloudinary.com/couponsbit/image/upload/v1786003016/Untitled_design_35_mwjk6h.png"
             alt="Analytics Clouds Noida performance consulting squad"
             className="w-full h-full object-cover object-top filter brightness-90"
             referrerPolicy="no-referrer"
