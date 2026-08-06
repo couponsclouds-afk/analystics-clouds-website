@@ -460,46 +460,51 @@ export function Home(props: HomeProps) {
 
   // Partner logos
   const partnerLogos = [
-  { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003961/24_uz1clg.png" },
-  { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003960/23_fpaecc.png" },
-  { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003959/21_bbztz3.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016591/14_uzcweq.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016574/47_x08xss.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016588/7_dub9xh.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016576/51_dnujkg.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016576/52_irv5rb.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016574/49_ppe8fj.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016587/5_wqp9qw.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016592/17_htvrwt.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016591/16_ecfaci.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016577/53_gyfmcb.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016578/55_u4vhir.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016583/68_xqpsvo.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016579/58_jufj1w.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016580/59_wti3i9.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016584/69_lopfup.png" },
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786016582/64_np0bap.png" },
+  
+    { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003959/21_bbztz3.png" },
   { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003960/22_r3ewqh.png" },
-  { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003959/20_ggilt0.png" },
-  { name: "FirstCry", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003958/17_ejhew6.png" },
-  { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003959/20_ggilt0.png" },
-  { name: "Pilolo", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003958/17_ejhew6.png" },
+  
+  
   { name: "GoEye", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003959/19_udshsu.png" },
   { name: "Ustraa", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003959/18_fcou6k.png" },
   { name: "Blur", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003958/16_lyiv6j.png" },
   { name: "CosIQ", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003958/15_bpmmkx.png" },
-  { name: "Serverbyt", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003956/14_pjffve.png" },
+  
   { name: "Sudhati", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003949/13_ybiuu5.png" },
   { name: "Timex", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003945/12_kba6ip.png" },
   { name: "Bonkers Corner", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003945/11_zuv9wa.png" },
   { name: "boAt", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003945/9_w9i4ua.png" },
   { name: "All Man", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003944/10_nzvdzd.png" },
   { name: "Palmonas", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003944/8_npkeul.png" },
-  { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003944/7_qeeu0o.png" },
-  { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003941/5_yunrut.png" },
+  
+  
   { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003941/6_amhiek.png" },
   { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003941/3_h4usvf.png" },
   { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003941/4_crtmcv.png" },
   { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003941/2_wl4zq6.png" },
   { name: "HelloIce", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003941/1_veokcg.png" },
-  { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1786003940/25_ollvfj.png" },
+  
   { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785916113/Salty-logo-300x75_ytewma_9_ahfian.webp" },
-  { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785916113/Salty-logo-300x75_ytewma_8_wt6nah.webp" },
+  
   { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785916113/Salty-logo-300x75_ytewma_7_q89o23.webp" },
-  { name: "Partner Brand", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785916112/Salty-logo-300x75_ytewma_11_zih8s9.webp" },
-  { name: "Shein UK", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828109/shein-UK-logo-300x75_i2kb5u.png" },
-  { name: "Morrison", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828108/morrisson-logo-300x75_s2hpou.png" },
-  { name: "Malaysia Airlines", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828108/Malaysia-Airlines-Logo-300x75_j2cl06.png" },
-  { name: "Klook", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828108/Klook-logo-300x75_iofetv.png" },
-  { name: "ITA Airways", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828108/ITA-Airways-Logo-300x75_mgdjgl.png" },
-  { name: "Etihad", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828106/Etihad-logo-300x75_rjaepq.png" },
-  { name: "G2A", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828106/G2A-Logo-300x75_cczjrq.png" },
-  { name: "TourRadar", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828106/Tour-Raddar-logo-300x75_etbo2v.png" },
-  { name: "Tesco", src: "https://res.cloudinary.com/couponsbit/image/upload/v1785828105/Tesco-logo-300x75_gjzcua.png" },
+  
+  
 ];
 
 const internationalPartnerLogos = [
